@@ -18,7 +18,7 @@ The resources provided are suggested materials. Users are encouraged to exercise
 ## 📚 Course Materials Overview
 | No. | Subject Code | Subject Name                               | Semester | Materials Included                                |
 |-----|--------------|--------------------------------------------|----------|---------------------------------------------------|
-|-----|--------------|--------------------------------------------| YEAR 1   |---------------------------------------------------|
+|     |              |                                            | YEAR 1   |                                                   |
 | 1   | BACS1013     | Problem Solving and Programming            | Y1S1     | -                                                 |
 | 2   | BACS1024     | Introduction to Computer Systems           | Y1S1     | -                                                 |
 | 3   | BAIT1023     | Web Design and Development                 | Y1S1     | -                                                 |
@@ -34,7 +34,7 @@ The resources provided are suggested materials. Users are encouraged to exercise
 | 13  | BACS2163     | Software Engineering                       | Y1S3     | Tutorial Answers                                  |
 | 14  | BAMS1623     | Discrete Mathematics                       | Y1S3     | Past Midterm Paper Answer                         |
 | 15  | MPU-3302     | Integrity and Anti-Corruption              | Y1S3     | -                                                 |
-|-----|--------------|--------------------------------------------| YEAR 2   |---------------------------------------------------|
+|     |              |                                            | YEAR 2   |                                                   |
 | 16  | BACS2063     | Data Structures and Algorithms             | Y2S1     | Practical Codes                                   |
 | 17  | BMMS2633     | Advanced Discrete Mathematics              | Y2S1     | Notes, Tutorial Answers, Past Year Paper Answers  |
 | 18  | BACS2042     | Research Methods                           | Y2S1     | -                                                 |
@@ -51,7 +51,7 @@ The resources provided are suggested materials. Users are encouraged to exercise
 | 29  | BAIT2073     | Mobile Application Development             | Y2S3     | Notes, Practical Codes                            |
 | 30  | BACS3183     | Advanced Database Management               | Y2S3     | Notes, Practical Codes                            |
 | 31  | BJEL2013     | English for Career Preparation             | Y2S3     | Notes                                             |
-|-----|--------------|--------------------------------------------| YEAR 3   |---------------------------------------------------|
+|     |              |                                            | YEAR 3   |                                                   |
 | 32  | BMCS3413     | Project II                                 | Y3S1     | Coming Soon                                       |
 | 33  | BMSE3153     | Software Project Management                | Y3S1     | Coming Soon                                       |
 | 34  | BMSE3013     | Software Evolution and Maintenance         | Y3S1     | Coming Soon                                       |
