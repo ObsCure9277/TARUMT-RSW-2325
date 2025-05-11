@@ -6,11 +6,10 @@ Welcome to the RSD Learning Materials repository—a curated collection of educa
 
 This repository includes:
 
-- **Self-Study Notes**: Comprehensive notes for independent learning.
+- **Notes**: Comprehensive notes for independent learning.
 - **Tutorial Answers**: Solutions to tutorial questions for reference.
 - **Practical Codes**: Sample codes to aid in practical understanding.
-- **Extra Exercises**: Additional exercises to reinforce concepts.
-- **Past Year Questions (PYQ)**: Previously discussed exam questions by lecturers/tutors.
+- **Past Year Paper Answers**: Previously discussed exam questions by lecturers/tutors.
 
 *Note: Most subjects contain a `README.md` file detailing coursework components and exam formats.*
 
@@ -37,7 +36,7 @@ Your support is greatly appreciated and contributes to the ongoing development o
 | 1   | BACS1013     | Problem Solving and Programming            | Y1S1     | -                                                 |
 | 2   | BACS1024     | Introduction to Computer Systems           | Y1S1     | -                                                 |
 | 3   | BAIT1023     | Web Design and Development                 | Y1S1     | -                                                 |
-| 4   | BAMS1613     | Probability and Statistics                 | Y1S1     | Notes, Tutorial Answers, Past Year Paper Answer   |
+| 4   | BAMS1613     | Probability and Statistics                 | Y1S1     | Notes, Tutorial Answers, Past Year Paper Answers  |
 | 5   | BJEL1713     | English for Tertiary Studies               | Y1S1     | -                                                 |
 | 6   | MPU-3103     | Penghayatan Etika dan Peradaban            | Y1S1     | -                                                 |
 | 7   | ECOQ         | Co-Curricular                              | Y1S2     | Based on what you have been chosen                |
@@ -50,7 +49,7 @@ Your support is greatly appreciated and contributes to the ongoing development o
 | 14  | BAMS1623     | Discrete Mathematics                       | Y1S3     | Past Midterm Paper Answer                         |
 | 15  | MPU-3302     | Integrity and Anti-Corruption              | Y1S3     | -                                                 |
 | 16  | BACS2063     | Data Structures and Algorithms             | Y2S1     | Practical Codes                                   |
-| 17  | BMMS2633     | Advanced Discrete Mathematics              | Y2S1     | Notes, Tutorial Answers, Past Year Paper Answer   |
+| 17  | BMMS2633     | Advanced Discrete Mathematics              | Y2S1     | Notes, Tutorial Answers, Past Year Paper Answers  |
 | 18  | BACS2042     | Research Methods                           | Y2S1     | -                                                 |
 | 19  | BAIT2113     | Web Application Development                | Y2S1     | Notes, Practical Codes                            |
 | 20  | BACS2003     | Artificial Intelligence                    | Y2S1     | Notes, Practical Codes, Tutorial Answers          |
