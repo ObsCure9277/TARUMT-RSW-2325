@@ -32,43 +32,43 @@ Your support is greatly appreciated and contributes to the ongoing development o
 
 ## 📚 Course Materials Overview
 
-| No. | Subject Code | Subject Name                               | Semester | Materials Included                     |
-|-----|--------------|--------------------------------------------|----------|----------------------------------------|
-| 1   | BACS1013     | Problem Solving and Programming            | Y1S1     |                                        |
-| 2   | BACS1024     | Introduction to Computer Systems           | Y1S1     |                                        |
-| 3   | BAIT1023     | Web Design and Development                 | Y1S1     |                                        |
-| 4   | BAMS1613     | Problem and Statistics                     | Y1S1     |                                        |
-| 5   | BJEL1713     | English for Tertiary Studies               | Y1S1     |                                        |
-| 6   | MPU-3103     | Penghayatan Etika dan Peradaban            | Y1S1     |                                        |
-| 7   | ECOQ         | Co-Curricular                              | Y1S2     |                                        |
-| 8   | BJEL1723     | Academic English                           | Y1S2     |                                        |
-| 9   | BAIT2203     | Human Computer Interaction                 | Y1S3     |                                        |
-| 10  | BACS2023     | Object Oriented Programming                | Y1S3     |                                        |
-| 11  | BACS1053     | Database Management                        | Y1S3     |                                        |
-| 12  | BAIT1013     | Introduction to Computer Networks          | Y1S3     |                                        |
-| 13  | BACS2163     | Software Engineering                       | Y1S3     |                                        |
-| 14  | BAMS1623     | Discrete Mathematics                       | Y1S3     |                                        |
-| 15  | MPU-3302     | Integrity and Anti-Corruption              | Y1S3     |                                        |
-| 16  | BACS2063     | Data Structures and Algorithms             | Y2S1     | Tutorial Answers                       |
-| 17  | BMMS2633     | Advanced Discrete Mathematics              | Y2S1     | Extra notes, Quiz Answers, Midterm     |
-| 18  | BACS2042     | Research Methods                           | Y2S1     | Pre-practical, Practical Codes, PYQ    |
-| 19  | BAIT2113     | Web Application Development                | Y2S1     | Practical Codes, Self-study Notes      |
-| 20  | BACS2003     | Artificial Intelligence                    | Y2S1     | Practical Codes, Self-study Notes      |
-| 21  | MPU-3232     | Entrepreneurship                           | Y2S1     | Notes, Sample Q&A, Penilaian 3         |
-| 22  | BACS2033     | Software Requirements Engineering          | Y2S2     | Tutorial Answers, PYQ, AES, RSA, DH    |
-| 23  | BACS2083     | Formal Methods for Software Engineering    | Y2S2     | Tutorial Answers, PYQ                  |
-| 24  | MPU-3133     | Falsafah dan Isu Semasa                    | Y2S2     | Weekly Notes, Tests, Practical Codes   |
-| 25  | BACS3403     | Project I                                  | Y2S3     | Practical Codes, Assignment Notes, PYQ |
-| 26  | BACS2073     | Software Design and Architecture           | Y2S3     | Tutorial Answers, Cisco Cheatsheet     |
-| 27  | BACS2103     | Software Quality Assurance and Testing     | Y2S3     | Solidity Codes, PYQ                    |
-| 28  | BAIT2073     | Mobile Application Development             | Y2S3     | Notes, Sample Q&A, Penilaian 3         |
-| 29  | BACS3183     | Advanced Database Management               | Y2S3     | Notes, Sample Q&A, Penilaian 3         |
-| 30  | BJEL2013     | English for Career Preparation             | Y2S3     | Notes, Sample Q&A, Penilaian 3         |
-| 31  | BMCS3413     | Project II                                 | Y3S1     |                                        |
-| 32  | BMSE3153     | Software Project Management                | Y3S1     |                                        |
-| 33  | BMSE3013     | Software Evolution and Maintenance         | Y3S1     |                                        |
-| 34  | BMCS3033     | Social and Professional Issues             | Y3S1     |                                        |
-| 35  | BMIT3273     | Cloud Computing                            | Y3S2     |                                        |
-| 36  | BMCS3003     | Distributed Systems and Parallel Computing | Y3S2     |                                        |
-| 37  | BAIT305C     | Industrial Training                        | Y3S2     | Get an Internship Placement            |
-| 38  | BAIT305C     | Industrial Training                        | Y3S3     | Same Internship as Y3S2                |
+| No. | Subject Code | Subject Name                               | Semester | Materials Included                                |
+|-----|--------------|--------------------------------------------|----------|---------------------------------------------------|
+| 1   | BACS1013     | Problem Solving and Programming            | Y1S1     | -                                                 |
+| 2   | BACS1024     | Introduction to Computer Systems           | Y1S1     | -                                                 |
+| 3   | BAIT1023     | Web Design and Development                 | Y1S1     | -                                                 |
+| 4   | BAMS1613     | Probability and Statistics                 | Y1S1     | Notes, Tutorial Answers, Past Year Paper Answer   |
+| 5   | BJEL1713     | English for Tertiary Studies               | Y1S1     | -                                                 |
+| 6   | MPU-3103     | Penghayatan Etika dan Peradaban            | Y1S1     | -                                                 |
+| 7   | ECOQ         | Co-Curricular                              | Y1S2     | Based on what you have been chosen                |
+| 8   | BJEL1723     | Academic English                           | Y1S2     | Notes                                             |
+| 9   | BAIT2203     | Human Computer Interaction                 | Y1S3     | -                                                 |
+| 10  | BACS2023     | Object Oriented Programming                | Y1S3     | Notes, Practical Codes, Tutorial Answers          |
+| 11  | BACS1053     | Database Management                        | Y1S3     | Notes, Practical Codes, Tutorial Answers          |
+| 12  | BAIT1013     | Introduction to Computer Networks          | Y1S3     | Tutorial Answers                                  |
+| 13  | BACS2163     | Software Engineering                       | Y1S3     | Tutorial Answers                                  |
+| 14  | BAMS1623     | Discrete Mathematics                       | Y1S3     | Past Midterm Paper Answer                         |
+| 15  | MPU-3302     | Integrity and Anti-Corruption              | Y1S3     | -                                                 |
+| 16  | BACS2063     | Data Structures and Algorithms             | Y2S1     | Practical Codes                                   |
+| 17  | BMMS2633     | Advanced Discrete Mathematics              | Y2S1     | Notes, Tutorial Answers, Past Year Paper Answer   |
+| 18  | BACS2042     | Research Methods                           | Y2S1     | -                                                 |
+| 19  | BAIT2113     | Web Application Development                | Y2S1     | Notes, Practical Codes                            |
+| 20  | BACS2003     | Artificial Intelligence                    | Y2S1     | Notes, Practical Codes, Tutorial Answers          |
+| 21  | MPU-3232     | Entrepreneurship                           | Y2S1     | Notes                                             |
+| 22  | BACS2033     | Software Requirements Engineering          | Y2S2     | Notes, Tutorial Answers                           |
+| 23  | BACS2083     | Formal Methods for Software Engineering    | Y2S2     | Notes                                             |
+| 24  | MPU-3133     | Falsafah dan Isu Semasa                    | Y2S2     | Notes                                             |
+| 25  | BACS3403     | Project I                                  | Y2S3     | -                                                 |
+| 26  | BACS2073     | Software Design and Architecture           | Y2S3     | Notes, Practical Diagrams, Tutorial Answers       |
+| 27  | BACS2103     | Software Quality Assurance and Testing     | Y2S3     | Notes, Tutorial                                   |
+| 28  | BAIT2073     | Mobile Application Development             | Y2S3     | Notes, Practical Codes                            |
+| 29  | BACS3183     | Advanced Database Management               | Y2S3     | Notes, Practical Codes                            |
+| 30  | BJEL2013     | English for Career Preparation             | Y2S3     | Notes                                             |
+| 31  | BMCS3413     | Project II                                 | Y3S1     | Coming Soon                                       |
+| 32  | BMSE3153     | Software Project Management                | Y3S1     | Coming Soon                                       |
+| 33  | BMSE3013     | Software Evolution and Maintenance         | Y3S1     | Coming Soon                                       |
+| 34  | BMCS3033     | Social and Professional Issues             | Y3S1     | Coming Soon                                       |
+| 35  | BMIT3273     | Cloud Computing                            | Y3S2     | Coming Soon                                       |
+| 36  | BMCS3003     | Distributed Systems and Parallel Computing | Y3S2     | Coming Soon                                       |
+| 37  | BAIT305C     | Industrial Training                        | Y3S2     | Get an Internship Placement                       |
+| 38  | BAIT305C     | Industrial Training                        | Y3S3     | Same Internship as Y3S2                           |
