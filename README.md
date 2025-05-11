@@ -39,6 +39,7 @@ The resources provided are suggested materials. Users are encouraged to exercise
 | 18  | BACS2042     | Research Methods                           | Y2S1     | -                                                 |
 | 19  | BAIT2113     | Web Application Development                | Y2S1     | Notes, Practical Codes                            |
 | 20  | BACS2003     | Artificial Intelligence                    | Y2S1     | Notes, Practical Codes, Tutorial Answers          |
+| 20  | BHLA2313     | Music Appreciation                         | Y2S1     | Notes, Tutorial Answers, Audio for Term Test      |
 | 21  | MPU-3232     | Entrepreneurship                           | Y2S1     | Notes                                             |
 | 22  | BACS2033     | Software Requirements Engineering          | Y2S2     | Notes, Tutorial Answers                           |
 | 23  | BACS2083     | Formal Methods for Software Engineering    | Y2S2     | Notes                                             |
