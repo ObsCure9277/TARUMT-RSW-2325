@@ -25,7 +25,7 @@ The resources provided are suggested materials. Users are encouraged to exercise
 | 4   | BAMS1613     | Probability and Statistics                 | Y1S1     | Notes, Tutorial Answers, Past Year Paper Answers  |
 | 5   | BJEL1713     | English for Tertiary Studies               | Y1S1     | -                                                 |
 | 6   | MPU-3103     | Penghayatan Etika dan Peradaban            | Y1S1     | -                                                 |
-| 7   | ECOQ         | Co-Curricular                              | Y1S2     | Based on what you have been chosen                |
+| 7   | ECOQ         | Co-Curricular (Esports)                    | Y1S2     | Notes                                             |
 | 8   | BJEL1723     | Academic English                           | Y1S2     | Notes                                             |
 | 9   | BAIT2203     | Human Computer Interaction                 | Y1S3     | -                                                 |
 | 10  | BACS2023     | Object Oriented Programming                | Y1S3     | Notes, Practical Codes, Tutorial Answers          |
