@@ -1,6 +1,6 @@
 # 🎓 Software Engineering - RSW Study Materials
 
-Welcome to the RSD Learning Materials repository—a curated collection of educational resources from 2023 to 2026. This repository aims to support students and educators by providing a range of materials to enhance learning experiences.
+Welcome to the RSD Learning Materials repository — a curated collection of recorded learning materials in RSW from 2023 to 2025. 
 
 ## 📁 Contents
 
