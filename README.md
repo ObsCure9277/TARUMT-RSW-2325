@@ -11,23 +11,9 @@ This repository includes:
 - **Practical Codes**: Sample codes to aid in practical understanding.
 - **Past Year Paper Answers**: Previously discussed exam questions by lecturers/tutors.
 
-*Note: Most subjects contain a `README.md` file detailing coursework components and exam formats.*
-
 ## ⚠️ Disclaimer
 
 The resources provided are suggested materials. Users are encouraged to exercise discretion and consult their tutors or instructors for authoritative guidance.
-
-## 📬 Contact
-
-For further assistance or inquiries, please feel free to reach out via email.
-
-## 💖 Support
-
-If you find these materials beneficial and wish to support the effort:
-
-- **Donation Information**: [Insert donation details or link here]
-
-Your support is greatly appreciated and contributes to the ongoing development of these resources.
 
 ## 📚 Course Materials Overview
 
@@ -71,3 +57,15 @@ Your support is greatly appreciated and contributes to the ongoing development o
 | 36  | BMCS3003     | Distributed Systems and Parallel Computing | Y3S2     | Coming Soon                                       |
 | 37  | BAIT305C     | Industrial Training                        | Y3S2     | Get an Internship Placement                       |
 | 38  | BAIT305C     | Industrial Training                        | Y3S3     | Same Internship as Y3S2                           |
+
+## 💖 Support
+
+If you find these materials beneficial and wish to support the effort:
+
+- **Donation Information**: [Insert donation details or link here]
+
+Your support is greatly appreciated and contributes to the ongoing development of these resources.
+
+## 📬 Author
+
+Ng Shen Zhi, ngsz-wm23@student.tarc.edu.my
