@@ -63,7 +63,7 @@ The resources provided are suggested materials. Users are encouraged to exercise
 
 ## 💖 Donation
 
-A minute of your reading time could be an hour or a day of my effort. Cheers! If you find these materials beneficial and wish to support the effort:
+If you find these materials beneficial, you can make a donation. A minute of your reading time could be an hour or a day of my effort. Cheers!
 
 <img src="https://github.com/user-attachments/assets/38d3ec7f-1f4a-4df9-8b0f-961388f4407a" alt="Sample Image" width="350" height="500">
 
