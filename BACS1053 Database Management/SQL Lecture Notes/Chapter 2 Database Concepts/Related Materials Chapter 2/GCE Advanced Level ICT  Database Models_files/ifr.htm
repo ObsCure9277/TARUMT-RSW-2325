@@ -1,0 +1,119 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script>(function(){var a=window,f="chrome",h="tick",k="external";(function(){function l(b){this.t={};this.tick=function(b,d,c){var e=void 0!=c?c:(new Date).getTime();this.t[b]=[e,d];if(void 0==c)try{a.console.timeStamp("CSI/"+b)}catch(g){}};this[h]("start",null,b)}var b;a.performance&&(b=a.performance.timing);var d=b?new l(b.responseStart):new l;a.jstiming={Timer:l,load:d};if(b){var c=b.navigationStart,g=b.responseStart;0<c&&g>=c&&(a.jstiming.srt=g-c)}if(b){var e=a.jstiming.load;0<c&&g>=c&&(e[h]("_wtsrt",void 0,c),e[h]("wtsrt_","_wtsrt",g),e[h]("tbsd_","wtsrt_"))}try{b=
+top!=self;var m=a.location.href,d=null;a[f]&&a[f].csi&&(d=Math.floor(a[f].csi().pageT),e&&0<c&&(e[h]("_tbnd",void 0,a[f].csi().startE),e[h]("tbnd_","_tbnd",c)));null==d&&a.gtbExternal&&(d=b?a.gtbExternal.frameT(m):a.gtbExternal.pageT());null==d&&a[k]&&(b?d=a[k].frameT(m):(d=a[k].pageT,e&&0<c&&(e[h]("_tbnd",void 0,a[k].startE),e[h]("tbnd_","_tbnd",c))));d&&(a.jstiming.pt=d)}catch(n){}})();})();
+window["__csi"]={a:false,b:false,c:"blogger",v:"default",g:null,d:false};if(window.jstiming){window.jstiming.beaconImageReferences_={};window.jstiming.reportCounter_=1;var getTick=function(c,b,d){var a=c.t[b],h=c.t.start;if(a&&(h||d))return a=c.t[b][0],h=void 0!=d?d:h[0],a-h},getReportUri=function(c,b,d){var a="";window.jstiming.srt&&(a+="&srt="+window.jstiming.srt,delete window.jstiming.srt);window.jstiming.pt&&(a+="&tbsrt="+window.jstiming.pt,delete window.jstiming.pt);try{window.external&&window.external.tran?a+="&tran="+window.external.tran:window.gtbExternal&&window.gtbExternal.tran?
+a+="&tran="+window.gtbExternal.tran():window.chrome&&window.chrome.csi&&(a+="&tran="+window.chrome.csi().tran)}catch(h){}var f=window.chrome;if(f&&(f=f.loadTimes)){f().wasFetchedViaSpdy&&(a+="&p=s");if(f().wasNpnNegotiated){var a=a+"&npn=1",g=f().npnNegotiatedProtocol;g&&(a+="&npnv="+(encodeURIComponent||escape)(g))}f().wasAlternateProtocolAvailable&&(a+="&apa=1")}var e=c.t,n=e.start,f=[],g=[],k;for(k in e)if("start"!=k&&0!=k.indexOf("_")){var l=e[k][1];l?e[l]&&g.push(k+"."+getTick(c,k,e[l][0])):
+n&&f.push(k+"."+getTick(c,k))}delete e.start;if(b)for(var q in b)a+="&"+q+"="+b[q];(b=d)||(b="https:"==document.location.protocol?"https://csi.gstatic.com/csi":"http://csi.gstatic.com/csi");return c=[b,"?v=3","&s="+(window.jstiming.sn||"opensocial-gadgets")+"&action=",c.name,g.length?"&it="+g.join(","):"",a,"&rt=",f.join(",")].join("")},sendReport_=function(c,b,d){c=getReportUri(c,b,d);if(!c)return"";b=new Image;var a=window.jstiming.reportCounter_++;window.jstiming.beaconImageReferences_[a]=b;b.onload=
+b.onerror=function(){window.jstiming&&delete window.jstiming.beaconImageReferences_[a]};b.src=c;b=null;return c};window.jstiming.report=function(c,b,d){if("prerender"==document.webkitVisibilityState){var a="webkitvisibilitychange",h=!1,f=function(){if(!h){b?b.prerender="1":b={prerender:"1"};var g;"prerender"==document.webkitVisibilityState?g=!1:(sendReport_(c,b,d),g=!0);g&&(h=!0,document.removeEventListener(a,f,!1))}};document.addEventListener(a,f,!1);return""}return sendReport_(c,b,d)}};var google=window.google||{};
+google.csi=function(){function c(a){var b=e?e:document.location.href;return(a=b.match(RegExp("[?&]"+a+"=([^&#]+)")))?a[1]:null}function b(a){window.jstiming.load.tick(a);g[a]=(new Date).getTime()}function d(){if(!k){var a=c("url")||"default",b=window.__csi||{},d=b.c||"default",h=b.v||"default",e=window.encodeURIComponent?encodeURIComponent:escape,e={gadget:e(a),container:e(d),view:e(h)},l=window.__dflags||{},p=[];b.g&&p.push(b.g);if(b.d)for(var m in l)"control"!==l[m]&&(e[m]=l[m],"true"===l[m]&&p.push(m));
+e.e=p.join(",");m=n?n:document.location.protocol;m=f[m];window.jstiming.load.name=[d,"_",h].join("");window.jstiming.report(window.jstiming.load,e,m);(d=window.gadgets)&&d.rpc&&b.b&&(g.url=a,g.id=c("mid"),d.rpc.call(null,"time_iframe",null,g));k=!0}}function a(a){window.addEventListener?window.addEventListener("load",a,!1):window.attachEvent&&window.attachEvent("onload",a)}function h(a){window.onbeforeunload=a}var f={"http:":"http://csi.gstatic.com/csi","https:":"https://gg.google.com/csi"},g={},
+e,n,k=!1,l=window.__csi||{};l.a?(a(function(){b("prt")}),h(function(){d()})):a(function(){b("ol");b("prt");d()});return{reset_:function(){k=!1},mockHref_:function(a){e=a},mockProtocol_:function(a){n=a},report_:d,tickPrtAndReport:function(){b("prt");d()},tickDl:function(){b("dl")}}}();
+</script><script>__dflags={"ContentDivGadgetRewriter":"false","ValidateTypeUrl":"true","HtmlParser":"control","ResourceUsageJsDebugGadgetRewriter":"true","JsSubVersion":"control","UseJsHintIfAvailable":"false","GadgetBlacklist":"control","LogResources":"false","DynamicHeightGadgetRewriter":"true","ErrorCodesToLog":"control","AdsUrlGadgetRewriter":"true","Monkeypatch":"control","ProxyingGadgetRewriter":"true","TrackResources":"false","AnalyticsGadgetRewriter":"true","ClickTrackGadgetRewriter":"false","InjectClientId":"false","CsiSample":"true","UseJsPipelineForRendering":"false","StyleAdjacencyGadgetRewriter":"true","UseIfrVersion":"true","DflagsJsDebugGadgetRewriter":"true","IfrSubVersion":"control","UrlTranslations":"control","YtVideoUrlGadgetRewriter":"true","StyleTagExtractorGadgetRewriter":"true","MiniMessageGadgetRewriter":"true","TimeSecsSinceEpochEnvGadgetRewriter":"true","ForceCoreNoneRequireFeatures":"false","UseUrlGadgetWhitelist":"false","UseETags":"false","GmailSkinsGadgetRewriter":"true"};
+
+/* mp-start */
+window['___jsl']=window['___jsl']||{};
+/* mp-end */
+</script><style type="text/css">body,td,div,span,p{font-family:arial,sans-serif;}a {color:#0000cc;}a:visited {color:#551a8b;}a:active {color:#ff0000;}body{margin: 0px;padding: 0px;background-color:white;}</style><script>window['__isgadget']=true;</script><script src="ifr_data/coreflashsetprefs.js"></script><script>window['___jsl'] = window['___jsl'] || {};(window['___jsl']['ci'] = (window['___jsl']['ci'] || [])).push({"rpc":{"commSwf":"//xpc.googleusercontent.com/gadgets/xpc.swf","passReferrer":"p2c:query","parentRelayUrl":"/rpc_relay.html"},"shindig.auth":{"authToken":"","trustedJson":""},"core.util":{"setprefs":{},"flash":{},"core":{}},"core.io":{"jsonProxyUrl":"//%host%/gadgets/makeRequest","proxyUrl":"//www-blogger-opensocial.googleusercontent.com/gadgets/proxy/refresh=%refresh%&container=%container%%rewriteMime%&gadget=%gadget%/%rawurl%"}});gadgets.config.init({"rpc":{"commSwf":"//xpc.googleusercontent.com/gadgets/xpc.swf","passReferrer":"p2c:query","parentRelayUrl":"/rpc_relay.html"},"shindig.auth":{"authToken":"","trustedJson":""},"core.util":{"setprefs":{},"flash":{},"core":{}},"core.io":{"jsonProxyUrl":"//%host%/gadgets/makeRequest","proxyUrl":"//www-blogger-opensocial.googleusercontent.com/gadgets/proxy/refresh=%refresh%&container=%container%%rewriteMime%&gadget=%gadget%/%rawurl%"}});
+</script><script>gadgets.Prefs.setMessages_({});gadgets.Prefs.setDefaultPrefs_({"fishColor1":"F45540","fishColor2":"F45540","backgroundColor":"F0F7FF","fishColor5":"F45540","fishColor6":"F45540","backgroundImage":"http://","fishColor3":"F45540","fishColor4":"F45540","fishColor9":"F45540","fishColor7":"F45540","fishColor8":"F45540","fishName":"Fish","foodColor":"FCB347","fishColor10":"F45540","userColor1":"","userColor2":"","userColor3":"","numFish":"5","userColor4":"","userColor5":"","fishColor":"none"});gadgets.io.preloaded_=[];</script></head><body dir="ltr"><div style="height: 200px;" id="flashContent"><embed src="ifr_data/fish.swf" type="application/x-shockwave-flash" wmode="opaque" base="http://hosting.gmodules.com/ig/gadgets/file/112581010116074801021/" allowscriptaccess="always" scale="noscale" flashvars="&amp;backgroundImageCached=http://www-blogger-opensocial.googleusercontent.com/gadgets/proxy/refresh=3600&amp;container=blogger&amp;gadget=http%3A%2F%2Ffishgadget.googlecode.com%2Fsvn%2Ftrunk%2Ffish.xml/http://2.bp.blogspot.com/-0AFIPl6zS3o/TeX5T5YYF0I/AAAAAAAAAp8/OL7qzv3PRkI/s1600/w.jpg&amp;fishColor1=F45540&amp;fishColor2=F0F7FF&amp;fishColor3=97B6A6&amp;fishColor4=BFD1C1&amp;fishColor5=FEB859&amp;fishColor6=FFFFFF&amp;fishColor7=FEB859&amp;fishColor8=000000&amp;fishColor9=33CC33&amp;fishColor10=FEB859&amp;foodColor=FFFFFF&amp;backgroundColor=000000&amp;url=http%3A%2F%2Ffishgadget.googlecode.com%2Fsvn%2Ftrunk%2Ffish.xml&amp;container=blogger&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=4a91610e1e6a19e8&amp;libs=core%3Aflash%3Asetprefs&amp;parent=http%3A%2F%2Fadvanced-level-ict.blogspot.com%2F&amp;up_fishColor=none&amp;up_fishName=Fish&amp;up_backgroundColor=000000&amp;up_backgroundImage=http%3A%2F%2F2.bp.blogspot.com%2F-0AFIPl6zS3o%2FTeX5T5YYF0I%2FAAAAAAAAAp8%2FOL7qzv3PRkI%2Fs1600%2Fw.jpg&amp;up_numFish=10&amp;up_fishColor1=F45540&amp;up_fishColor2=F0F7FF&amp;up_fishColor3=97B6A6&amp;up_fishColor4=BFD1C1&amp;up_fishColor5=FEB859&amp;up_fishColor6=FFFFFF&amp;up_fishColor7=FEB859&amp;up_fishColor8=000000&amp;up_fishColor9=33CC33&amp;up_fishColor10=FEB859&amp;up_foodColor=FFFFFF&amp;mid=1&amp;st=e%3DAFlCd0V01urMc3RgLHVFTvrZ8cQRKLJv8bCGM2Nt5aiGFsqB1fbe3mxs1U2rdFQbinoHFF9sOVkF7K2W4Tp143FUIMg0hvn5sBPG0pbdUaQRNIzGsDgBAA%252ByNkiGwivX60blLGHVmWCs%26c%3Dblogger&amp;rpctoken=4663472537633572363&amp;" bgcolor="#F0F7FF" id="flashid" height="100%" width="100%"></div>
+<script type="text/javascript">
+_IG_RegisterOnloadHandler(init); 
+
+var prefs = new _IG_Prefs();
+
+function init(){
+    
+    var swfURL = "http://hosting.gmodules.com/ig/gadgets/file/112581010116074801021/fish.swf?3";
+    var bgcolor = "F0F7FF";
+    var flashContent = _gel("flashContent");
+    
+    var numFish = prefs.getString("numFish");
+    
+    var fishColors = new Array();
+    var backgroundColor = prefs.getString("backgroundColor");
+    var backgroundImage = prefs.getString("backgroundImage");
+    var foodColor = prefs.getString("foodColor");
+    
+    var fishColor = "";
+    var fvars = "";
+    
+    resize();
+    window.onresize = resize;
+    
+    if(backgroundImage != ""){
+        fvars += "&backgroundImageCached="+ _IG_GetCachedUrl(backgroundImage);
+    }
+    
+    for(var i=1;i <= 10;i++){
+	    fishColor = prefs.getString("fishColor"+i);
+	    fishColor = checkCustomColor(fishColor);
+	    fvars += "&fishColor"+ i +"="+ fishColor;
+    }
+    
+    if(foodColor != null){
+    	foodColor = checkCustomColor(foodColor);
+        fvars += "&foodColor="+ foodColor;
+    }
+    
+    if(backgroundColor != null){
+        backgroundColor = checkCustomColor(backgroundColor);
+        bgColor = backgroundColor;
+        fvars += "&backgroundColor="+ backgroundColor;
+    }
+    
+    //_IG_EmbedCachedFlash(swfURL, "flashContent", {
+    _IG_EmbedFlash(swfURL, "flashContent", {
+        swf_version: 8,
+        id: "flashid",
+        width: "100%",
+        height: "100%",
+        bgcolor: "#"+ bgcolor,
+        flashvars: fvars + "&"+ getArgsAsFlashVars(),
+        scale:"noscale",
+        //salign:"tl",
+        AllowScriptAccess:'always'
+    });
+}
+
+function resize(){
+        var flashContent = _gel("flashContent");
+
+        var h = document.body.clientHeight;
+        var maxHeight = 400;
+        
+        if(prefs.getString("synd")=="ig"){
+            if(h > maxHeight){
+                h = maxHeight;
+            }
+        }
+        
+        flashContent.style.height = h +"px";
+}
+    
+function checkCustomColor(color){
+        //var prefs = new _IG_Prefs();
+        if(color.substring(0,4)=="user")
+            return prefs.getString(color);
+        else
+            return color;
+}
+
+function getArgsAsFlashVars(){
+    var args = _args();
+    var arrArgs = new Array();
+
+    for (var arg in args)
+    {
+    arrArgs.push(arg);
+    arrArgs.push("=");
+    arrArgs.push(_esc(args[arg]));
+    arrArgs.push("&");
+    }
+
+    return arrArgs.join("");
+}
+
+</script>
+
+   
+  <script>gadgets.util.runOnLoadHandlers();</script><script>window.google.csi.tickDl();
+</script></body></html>
