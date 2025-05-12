@@ -61,17 +61,16 @@ The resources provided are suggested materials. Users are encouraged to exercise
 | 38  | BAIT305C     | Industrial Training                        | Y3S2     | Get an Internship Placement                       |
 | 39  | BAIT305C     | Industrial Training                        | Y3S3     | Same Internship as Y3S2                           |
 
-## 💖 Support
+## 💖 Donation
 
-If you find these materials beneficial and wish to support the effort:
+A minute of your reading time could be an hour or a day of my effort. Cheers! If you find these materials beneficial and wish to support the effort:
 
-- **Donation Information**: [Insert donation details or link here]
-
-Your support is greatly appreciated and contributes to the ongoing development of these resources.
+<img src="https://github.com/user-attachments/assets/38d3ec7f-1f4a-4df9-8b0f-961388f4407a" alt="Sample Image" width="350" height="500">
 
 ## 📬 Author
 
 Ng Shen Zhi, ngsz-wm23@student.tarc.edu.my
+
 
 
 
