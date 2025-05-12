@@ -1,0 +1,10 @@
+create table menu (
+   menu_id		varchar(5)  not null,
+   descr		varchar(30) not null,
+   price		number(6,2),
+   date_introduced	date,
+   cat_id		varchar(5),
+   remarks		varchar(50),
+primary key(menu_id),
+foreign key(cat_id) references category(cat_id)
+);

@@ -1,0 +1,51 @@
+staff -- assume that the staff table structure has the salary attribute from Practical 5
+insert into staff values(2001,'Wendy',   '01-JAN-2012','02-JAN-1995',2000);
+insert into staff values(2002,'McDonald','01-JAN-2012','03-FEB-1994',2200);
+insert into staff values(2003,'Cha Kai', '01-JAN-2012','04-MAR-1993',2300);
+
+customer
+insert into customer values(6789,'Mr Lee','mrlee@email.com',null,'01-FEB-1986','M');
+insert into customer values(6788,'Ms Chan','mschan@email.com',null,'01-FEB-1995','F');
+insert into customer values(6787,'Mr Steven','mrsteven@email.com',null,'01-MAR-1990','M');
+insert into customer values(6786,'En Mohd','enmohd@email.com',null,'01-APR-1974','M');
+insert into customer values(6785,'Nosmo King','NoSmoking@email.com',null,'01-MAY-1979','M');
+insert into customer values(6784,'Ms Wong','mswong@email.com',null,'01-AUG-1992','F');
+
+category
+insert into category values('RC001', 'Rice main course', 10.00,15.00);
+insert into category values('P0001', 'Pasta main course', 12.00,20.00);
+insert into category values('PZ001', 'Pizza main course', 11.00,25.00);
+
+
+menu
+insert into menu values('RC101','Pineapple Fried Rice',12.50,'01-JAN-2014','RC001','A Thai delicacy');
+insert into menu values('RC102','Cheese Baked Rice',   13.99,'01-JAN-2014','RC001','Chef''s recommendation');
+insert into menu values('RC103','Seafood Risotto',     14.50,'01_FEB-2014','RC001','Italian Special');
+insert into menu values('P201','Asian Fusion Pasta',   12.50,'01-JAN-2014','P0001','East meets West');
+insert into menu values('P301','Chicken Cabonara',     13.00,'01-FEB-2014','P0001','All time favourite');
+insert into menu values('P401','3-in-1 Pasta',         12.50,'01-FEB-2014','P0001','Fusilli,Fettuccine and Pene');
+insert into menu values('PZ601','Chicken Pizza',       11.50,'01-MAR-2013','PZ001','Classic favourite');
+insert into menu values('PZ602','Vegeterian Pizza',    12.00,'01-MAR-2013','PZ001','For vege lovers');
+insert into menu values('PZ603','Satay Mixed',         19.90,'01-MAR-2103','PZ001','Malaysian best seller');
+insert into menu values('PZ604','Meat Platter Mix',    25.00,'01-APR-2014','PZ001','Beef, Chicken and Turkey Ham');
+
+food_order
+insert into food_order values(3001,'25-JUN-2016',6789,2001,3,51.49,3.09,5.15);
+insert into order_list values(3001,'RC101',1,12.50);
+insert into order_list values(3001,'RC102',1,13.99);
+insert into order_list values(3001,'PZ604',1,25.00);
+
+insert into food_order values(3002,'25-JUN-2016',6788,2002,4,52.99,3.18,5.30);
+insert into order_list values(3002,'RC102',1,13.99);
+insert into order_list values(3002,'RC103',1,14.50);
+insert into order_list values(3002,'PZ602',1,12.00);
+insert into order_list values(3002,'P201',1,12.50);
+
+insert into food_order values(3003,'25-JUN-2016',6787,2003,4,73.4,4.40,7.34);
+insert into order_list values(3003,'RC103',2,14.50);
+insert into order_list values(3003,'P301',1,13.00);
+insert into order_list values(3003,'PZ603',1,19.90);
+insert into order_list values(3003,'PZ601',1,11.50);
+
+
+

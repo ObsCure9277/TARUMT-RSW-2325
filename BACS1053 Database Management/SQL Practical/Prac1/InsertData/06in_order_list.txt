@@ -1,0 +1,7 @@
+insert into order_list values(1001,'M001',2,3.90);
+insert into order_list values(1001,'M091',1,5.90);
+insert into order_list values(1002,'M001',1,3.90);
+insert into order_list values(1002,'M091',2,5.90);
+insert into order_list values(1002,'M101',1,11.95);
+insert into order_list values(1003,'M091',2,5.90);
+insert into order_list values(1003,'M101',2,11.95);

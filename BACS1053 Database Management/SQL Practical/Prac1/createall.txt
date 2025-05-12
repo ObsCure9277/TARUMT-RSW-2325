@@ -1,0 +1,94 @@
+create table staff (
+   staff_id	number(4)   not null,
+   staff_name	varchar(25) not null,
+   date_join    date,
+   birth_date   date,
+primary key(staff_id)
+);
+
+create table category (
+   cat_id	varchar(5)  not null,
+   description	varchar(30) not null,
+   min_price	number(6,2),
+   max_price	number(6,2),
+primary key(cat_id)
+);
+
+create table menu (
+   menu_id		varchar(5)  not null,
+   descr		varchar(30) not null,
+   price		number(6,2),
+   date_introduced	date,
+   cat_id		varchar(5),
+   remarks		varchar(50),
+primary key(menu_id),
+foreign key(cat_id) references category(cat_id)
+);
+
+create table customer (
+   cust_no	number(7)   not null,
+   cust_name	varchar(25) not null,
+   email	varchar(35),
+   phone	varchar(14),
+   birth_date   date,
+   gender	char(1),
+primary key(cust_no),
+constraint chk_email check (REGEXP_LIKE(email,'^[a-zA-Z]\w+@(\S+)$')),
+constraint chk_gender check (UPPER(gender) in ('M','F'))
+);
+
+create table food_order (
+   order_no		number(7) not null,
+   order_date		date,
+   cust_no		number(7),
+   staff_no		number(4),
+   total_items		number(2),
+   food_amount		number(7,2),
+   GST			number(6,2),
+   service_charge	number(6,2),
+primary key(order_no),
+foreign key(cust_no)  references customer(cust_no),
+foreign key(staff_no) references staff(staff_id)
+);
+
+create table order_list (
+   order_no	number(7)  not null,
+   menu_id	varchar(5) not null,
+   quantity	number(2),
+   price	number(6,2),
+primary key(order_no,menu_id),
+foreign key(order_no) references food_order(order_no),
+foreign key(menu_id) references menu(menu_id)
+);
+
+insert into staff values(1001,'Christina','01-JAN-2011','01-JAN-1998');
+
+insert into category values ('DR01','Carbonated drinks',1.00,10.00);
+insert into category values ('DB01','Beverages',3.00,15.00);
+insert into category values ('ST01','Starters',4.5,25.00);
+
+insert into menu values('M001','Sparkling Lime',3.90,'01-JAN-2014','DR01','Refreshing soda lime');
+insert into menu values('M091','Cappuccino',5.90,'01-JAN-2014','DB01','Made with quality Espresso brew');
+insert into menu values('M101','Crab stick and Fish Fingers',11.95,'24-FEB-2015','ST01','Delicious finger food');
+
+insert into customer values(1001,'Ali','aBc@tarc.edu.my',null,null,'M');
+
+insert into customer values(1002,'Abu','abc@tarc.edu.my',null,null,'M');
+
+insert into customer values(1003,'Alice','a123@tarc.edu.my',null,null,'F');
+
+insert into customer values(1004,'Mary','a123@tarc.edu.my',null,null,'F');
+
+insert into food_order values(1001, '01-JUN-2016',1001,1001,2,13.7,0.82,1.37);
+insert into food_order values(1002, '03-JUN-2016',1001,1001,3,27.65,1.66,2.76);
+insert into food_order values(1003, '05-JUN-2016',1001,1001,2,35.7,2.14,3.57);
+
+insert into order_list values(1001,'M001',2,3.90);
+insert into order_list values(1001,'M091',1,5.90);
+insert into order_list values(1002,'M001',1,3.90);
+insert into order_list values(1002,'M091',2,5.90);
+insert into order_list values(1002,'M101',1,11.95);
+insert into order_list values(1003,'M091',2,5.90);
+insert into order_list values(1003,'M101',2,11.95);
+
+commit;

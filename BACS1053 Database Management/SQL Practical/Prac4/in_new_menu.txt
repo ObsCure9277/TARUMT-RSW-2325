@@ -1,0 +1,34 @@
+create table menu (
+   menu_id		varchar(5)  not null,
+   descr		varchar(30) not null,
+   price		number(6,2),
+   date_introduced	date,
+   cat_id		varchar(5),
+   remarks		varchar(50),
+primary key(menu_id),
+foreign key(cat_id) references category(cat_id)
+);
+
+
+
+-- First, change Oracle's default date format to Malaysian date format
+-- The new date format will be maintained until you terminate the session i.e. logout
+
+ALTER SESSION SET NLS_DATE_FORMAT = 'DD/MM/YYYY'; 
+
+cl scr
+PROMPT 'Data entry for MENU table'
+PROMPT
+PROMPT
+
+ACCEPT v_menu_id     		char   FORMAT 'A5'    	   PROMPT 'Enter Menu ID:    '
+ACCEPT v_descr   		char   FORMAT 'A30'        PROMPT 'Enter Description:  '
+ACCEPT v_price      		number FORMAT '9999.99'    PROMPT 'Enter Price: '
+ACCEPT v_date_introduced     	char   FORMAT 'dd/mm/yyyy' PROMPT 'Enter Date Introduced:      '
+ACCEPT v_cat_id   		char   FORMAT 'A5'         PROMPT 'Enter Category ID: '
+ACCEPT v_remarks     		char   FORMAT 'A50'        PROMPT 'Enter Remarks: '
+
+
+--execute the INSERT statement
+INSERT INTO customer VALUES
+(&v_menu_id,'&v_descr','&v_price','&v_data_introduced','&v_cat_id','&v_remarks');

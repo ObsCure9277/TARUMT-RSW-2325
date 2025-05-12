@@ -1,0 +1,8 @@
+insert into customer values(1001,'Ali','aBc@tarc.edu.my',null,null,'M');
+
+insert into customer values(1002,'Abu','abc1@tarc.edu.my',null,null,'M');
+
+insert into customer values(1003,'Alice','b123@tarc.edu.my',null,null,'F');
+
+insert into customer values(1004,'Mary','a123@tarc.edu.my',null,null,'F');
+

@@ -1,0 +1,13 @@
+create table food_order (
+   order_no		number(7) not null,
+   order_date		date,
+   cust_no		number(7),
+   staff_no		number(4),
+   total_items		number(2),
+   food_amount		number(7,2),
+   GST			number(6,2),
+   service_charge	number(6,2),
+primary key(order_no),
+foreign key(cust_no)  references customer(cust_no),
+foreign key(staff_no) references staff(staff_id)
+);

@@ -1,0 +1,9 @@
+create table order_list (
+   order_no	number(7)  not null,
+   menu_id	varchar(5) not null,
+   quantity	number(2),
+   price	number(6,2),
+primary key(order_no,menu_id),
+foreign key(order_no) references food_order(order_no),
+foreign key(menu_id) references menu(menu_id)
+);

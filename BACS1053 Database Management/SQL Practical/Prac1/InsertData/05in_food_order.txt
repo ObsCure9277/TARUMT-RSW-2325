@@ -1,0 +1,3 @@
+insert into food_order values(1001, '01-JUN-2016',1001,1001,2,13.7,0.82,1.37);
+insert into food_order values(1002, '03-JUN-2016',1001,1001,3,27.65,1.66,2.76);
+insert into food_order values(1003, '05-JUN-2016',1001,1001,2,35.7,2.14,3.57);

@@ -1,0 +1,1 @@
+insert into staff values(1001,'Christina','01-JAN-2011','01-JAN-1998');

@@ -1,0 +1,3 @@
+insert into menu values('M001','Sparkling Lime',3.90,'01-JAN-2014','DR01','Refreshing soda lime');
+insert into menu values('M091','Cappuccino',5.90,'01-JAN-2014','DB01','Made with quality Espresso brew');
+insert into menu values('M101','Crab stick and Fish Fingers',11.95,'24-FEB-2015','ST01','Delicious finger food');
