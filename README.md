@@ -28,7 +28,7 @@ The resources provided are suggested materials. Users are encouraged to exercise
 | 7   | ECOQ         | Co-Curricular (Esports)                    | Y1S2     | Notes                                             |
 | 8   | BJEL1723     | Academic English                           | Y1S2     | Notes, Execises                                   |
 | 9   | BAIT2203     | Human Computer Interaction                 | Y1S3     | -                                                 |
-| 10  | BACS2023     | Object Oriented Programming                | Y1S3     | Notes, Practical Codes, Tutorial Answers          |
+| 10  | BACS2023     | Object Oriented Programming                | Y1S3     | Notes, Practical Codes                            |
 | 11  | BACS1053     | Database Management                        | Y1S3     | Notes, Practical Codes, Tutorial Answers          |
 | 12  | BAIT1013     | Introduction to Computer Networks          | Y1S3     | Tutorial Answers                                  |
 | 13  | BACS2163     | Software Engineering                       | Y1S3     | Tutorial Answers                                  |
