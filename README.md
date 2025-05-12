@@ -13,7 +13,7 @@ This repository includes:
 
 ## ⚠️ Disclaimer
 
-The resources provided are suggested materials. Users are encouraged to exercise discretion and consult their tutors or instructors for authoritative guidance.
+The materials provided in this repository are for reference and self-study purposes only. As course structures, syllabus, and assessment formats may change over time, users are strongly advised to verify all information with their official course tutors, instructors, or updated academic guidelines.
 
 ## 📚 Course Materials Overview
 | No. | Subject Code | Subject Name                               | Semester | Materials Included                                |
