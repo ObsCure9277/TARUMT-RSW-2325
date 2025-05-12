@@ -1,0 +1,8 @@
+
+// API CALLBACK
+(new PopularQueryRenderer(document.getElementById("queries"))).render({
+"title" : "Adsence Search Box",
+"maxNumberOfPopularQueries" : 10,
+"popularQueries" : [
+]
+})

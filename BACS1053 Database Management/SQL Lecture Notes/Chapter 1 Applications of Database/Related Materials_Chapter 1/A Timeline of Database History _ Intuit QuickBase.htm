@@ -1,0 +1,438 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwUBVlZaGwEEVlJTBQY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,o,a,u){return s?s-=1:n("err",[u||new UncaughtException(t,e,o)]),"function"==typeof i?i.apply(this,r(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}var n=t("handle"),r=t(6),o=t(5),i=window.onerror,a=!1,s=0;t("loader").features.push("err"),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),a=!0)}o.on("fn-start",function(){a&&(s+=1)}),o.on("fn-err",function(t,e,r){a&&(this.thrown=!0,n("err",[r,(new Date).getTime()]))}),o.on("fn-end",function(){a&&!this.thrown&&s>0&&(s-=1)}),o.on("internal-error",function(t){n("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);return i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1),n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,d="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,p=e(d);if(p&&(r.rxSize=p),this.sameOrigin){var f=t.getResponseHeader("X-NewRelic-App-Data");f&&(n.cat=f.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,d=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var d=e(o);d&&(r.txSize=d)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){a.emit("internal-error",e)}};for(var p=0;u>p;p++)n.addEventListener(s[p],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=c.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID){c.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=c.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,d="addEventListener",p="attachEvent",f=(""+location).split("?")[0],c=e.exports={offset:i(),origin:f,features:[]};u[d]?(u[d]("DOMContentLoaded",o,!1),s[d]("load",n,!1)):(u[p]("onreadystatechange",r),s[p]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,n,r){function nrWrapper(){try{var a,u=s(arguments),d=this,p=n&&n(u,d)||{}}catch(f){i([f,"",[u,d,r],p])}o(e+"start",[u,d,r],p);try{return a=t.apply(d,u)}catch(c){throw o(e+"err",[u,d,c],p),c}finally{o(e+"end",[u,d,a],p)}}return t&&"function"==typeof t&&t.apply&&!t._wrapped?(e||(e=""),nrWrapper._wrapped=!0,nrWrapper):t}function r(t,e,r,o){r||(r="");var i,a,s,u="-"===r.charAt(0);for(s=0;s<e.length;s++)a=e[s],i=t[a],i&&"function"==typeof i&&i.apply&&!i._wrapped&&(t[a]=n(i,u?a+r:r,o,a,t))}function o(t,e,n){try{a.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{a.emit("internal-error",t)}catch(e){}}var a=t(1),s=t(2);e.exports=n,n.inPlace=r},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+    <title>A Timeline of Database History | Intuit QuickBase</title>    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta http-equiv="Content-Language" content="en-US" >
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<meta name="keywords" content="" >
+<meta name="description" content="A timeline of database history spanning ancient times to the 20th century." >
+        <meta name="viewport" content="width=1080">
+    
+    <link type="text/css" rel="stylesheet" href="/assets/?f=/redesign/css/normalize.css,/redesign/css/fonts.css,/redesign/css/vendor/bootstrap-non-responsive.css,/redesign/css/vendor/flexslider.css,/redesign/css/vendor/video-js.css,/redesign/css/main.css,/redesign/css/responsive.css,/redesign/css/subpages.css" media="screen" />
+
+    <!--[if IE 8]>
+        <link rel="stylesheet" href="/redesign/css/fonts.ie.css">
+    <![endif]-->
+
+        <script src="/redesign/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Google JS API -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <script>
+        var isIE8 = false;
+    </script>
+    <!--[if IE 8]>
+        <script>
+            isIE8 = true;
+        </script>
+    <![endif]-->
+
+    <script src="/assets/?f=/redesign/js/vendor/jquery-1.11.0.min.js,/redesign/js/vendor/bootstrap.js,/redesign/js/vendor/jquery.flexslider.js,/redesign/js/vendor/jquery.browser.min.js,/redesign/js/vendor/video.js,/redesign/js/plugins.js,/redesign/js/main.js,/redesign/js/vendor/IQ-SEOTag.js" type="text/javascript"></script>
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-FHWV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-FHWV');</script>
+<!-- End Google Tag Manager -->
+    <header id="top">
+        <nav id="utility" class="navbar navbar-static-top">
+  <div class="container">
+
+    <form id="search_top" class="navbar-form navbar-right search-form">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search">
+        <span class="input-group-btn">
+          <button class="btn"><i class="glyphicon glyphicon-search"></i></button>
+        </span>
+      </div><!-- /input-group -->
+    </form>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="http://www.quickbase.com/db/main?a=SignIn" class="btn btn-sign-in">Sign In</a></li>
+    </ul>
+
+    <ul class="nav navbar-nav">
+      
+    <li class="">
+        <a href="/resources">Resources</a>
+    </li>
+    <li class="">
+        <a href="/blog">Blog</a>
+    </li>
+    <li class="">
+        <a href="/support">Support & Community</a>
+    </li>
+    <li class="">
+        <a href="/contact-us">Contact Us</a>
+    </li>    <ul>
+
+  </div>
+</nav>
+
+<nav id="main_menu" class="navbar navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>-->
+      <a class="navbar-brand" href="/"><img src="/images/intuit-quickbase-logo-transp.png" alt="Intuit QuickBase" width="228" height="32" /></a>
+    </div>
+    <!--<div class="navbar-collapse collapse">-->
+    <div class="">
+      <ul class="nav navbar-nav navbar-right">
+        
+    <li class="home dropdown">
+        <a class=" dropdown-toggle" href="/" data-toggle="dropdown">Home <b class="caret"></b></a>
+    </li>
+    <li class=" dropdown">
+        <a class=" dropdown-toggle" href="/product-tour" data-toggle="dropdown">Tour <b class="caret"></b></a>
+        <ul class="dropdown-menu dropdown-tour depth-1">
+            <li class="">
+                <a href="/product-tour/team-collaboration-and-task-management">Collaborate in the Cloud</a>
+            </li>
+            <li class="">
+                <a href="/product-tour/custom-app-development-software">Customize Your Apps</a>
+            </li>
+            <li class="">
+                <a href="/product-tour/workflow-and-process-automation">Automate Your Workflows</a>
+            </li>
+            <li class="">
+                <a href="/product-tour/dashboards-and-data-reporting">Drive Action and Insight</a>
+            </li>
+            <li class="">
+                <a href="/product-tour/ready-applications-for-business">Accelerate Your Success</a>
+            </li>
+        </ul>
+    </li>
+    <li class=" dropdown">
+        <a class=" dropdown-toggle" href="/database-applications-for-business" data-toggle="dropdown">Solutions <b class="caret"></b></a>
+        <ul class="dropdown-menu dropdown-solutions depth-1">
+            <li class=" dropdown-header">
+                <span>Functional</span>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/project-management-software">Project Management</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/crm-and-sales-management-software">Sales Management</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/hr-software-and-solutions">Human Resources</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/it-and-is-software-and-solutions">IT Management</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/customer-service-and-support-software">Customer Service</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/training-software-and-solutions">Training Management</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/marketing-software-and-solutions">Marketing</a>
+            </li>
+            <li class=" dropdown-header">
+                <span>Industry</span>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/legal-software-and-solutions">Legal</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/healthcare-software-solutions-and-apps">Healthcare</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/property-management-and-real-estate-software-apps">Real Estate</a>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/consulting-and-agency-software-solutions">Professional Services</a>
+            </li>
+            <li class=" dropdown-header">
+                <span></span>
+            </li>
+            <li class="">
+                <a href="/database-applications-for-business/build-a-custom-database-app-online">Create Your <br>Own Solution <b class="caret-right"></b></a>
+            </li>
+            <li class="">
+                <a href="/exchange">Explore All<br>Apps <b class="caret-right"></b></a>
+            </li>
+            <li class="">
+                <a href="/contact-us">Contact a Solutions <br>Specialist <b class="caret-right"></b></a>
+            </li>
+        </ul>
+    </li>
+    <li class="">
+        <a href="/plans-and-pricing">Pricing</a>
+    </li>
+    <li class=" dropdown">
+        <a class=" dropdown-toggle" href="/partners" data-toggle="dropdown">Partners <b class="caret"></b></a>
+        <ul class="dropdown-menu dropdown-partners depth-1">
+            <li class="">
+                <a href="/partners">Find a QuickBase Solution Provider</a>
+            </li>
+            <li class="">
+                <a href="/partners/add-ons">Find an Add-On</a>
+            </li>
+            <li class="">
+                <a href="/partners/become-a-partner">Become a Solution Provider</a>
+            </li>
+        </ul>
+    </li>
+    <li class="">
+        <a href="/customers">Customers</a>
+    </li>        <li>
+          <a href="https://www.quickbase.com/db/main?a=pr&amp;p=deppm2s.49" class="btn btn-primary btn-trial">Free Trial</a>
+        </li>
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</nav>    </header>
+
+    <div id="page-container">
+
+        
+<div class="container articles-page">
+<div id="article">
+  <h1>A Timeline of Database History</h1>
+
+  <p><strong>Ancient Times</strong>: Human beings began to store information very long
+  ago. In the ancient times, elaborate database systems were developed by government
+  offices, libraries, hospitals, and business organizations, and some of the basic
+  principles of these systems are still being used today.</p>
+
+  <p><strong>1960s</strong>: Computerized database started in the 1960s, when the use of
+  computers became a more cost-effective option for private organizations. There were two
+  popular data models in this decade: a network model called CODASYL and a hierarchical
+  model called IMS. One database system that proved to be a commercial success was the
+  SABRE system that was used by IBM to help American Airlines manage its reservations
+  data.</p>
+
+  <p><strong>1970 to 1972</strong>: E.F. Codd published an important paper to propose the
+  use of a relational database model, and his ideas changed the way people thought about
+  databases. In his model, the database&rsquo;s schema, or logical organization, is
+  disconnected from physical information storage, and this became the standard principle
+  for database systems.</p>
+
+  <p><strong>1970s</strong>: Two major relational database system prototypes were created
+  between the years 1974 and 1977, and they were the Ingres, which was developed at UBC,
+  and System R, created at IBM San Jose. Ingres used a query language known as QUEL, and
+  it led to the creation of systems such as Ingres Corp., MS SQL Server, Sybase,
+  Wang&rsquo;s PACE, and Britton-Lee. On the other hand, System R used the SEQUEL query
+  language, and it contributed to the development of SQL/DS, DB2, Allbase, Oracle, and
+  Non-Stop SQL. It was also in this decade that Relational Database Management System, or
+  RDBMS, became a recognized term.</p>
+
+  <p><strong>1976</strong>: A new database model called Entity-Relationship, or ER, was
+  proposed by P. Chen this year. This model made it possible for designers to focus on
+  data application, instead of logical table structure.</p>
+
+  <p><strong>1980s</strong>: Structured Query Language, or SQL, became the standard query
+  language.</p>
+
+  <p>Relational database systems became a commercial success as the rapid increase in
+  computer sales boosted the database market, and this caused a major decline in the
+  popularity of network and hierarchical database models. DB2 became the flagship
+  database product for IBM, and the introduction of the IBM PC resulted in the
+  establishments of many new database companies and the development of products such as
+  PARADOX, RBASE 5000, RIM, Dbase III and IV, OS/2 Database Manager, and Watcom SQL.</p>
+
+  <p><strong>Early 1990s</strong>: After a database industry shakeout, most of the
+  surviving companies sold complex database products at high prices. Around this time,
+  new client tools for application development were released, and these included the
+  Oracle Developer, PowerBuilder, VB, and others. A number of tools for personal
+  productivity, such as ODBC and Excel/Access, were also developed. Prototypes for Object
+  Database Management Systems, or ODBMS, were created in the early 1990s.</p>
+
+  <p><strong>Mid 1990s</strong>: The advent of the Internet led to exponential growth of
+  the database industry. Average desktop users began to use client-server database
+  systems to access computer systems that contained legacy data.</p>
+
+  <p><strong>Late 1990s</strong>: Increased investment in online businesses resulted in a
+  rise in demand for Internet database connectors, such as Front Page, Active Server
+  Pages, Java Servelets, Dream Weaver, ColdFusion, Enterprise Java Beans, and Oracle
+  Developer 2000. The use of cgi, gcc, MySQL, Apache, and other systems brought open
+  source solution to the Internet. With the increased use of point-of-sale technology,
+  online transaction processing and online analytic processing began to come of age.</p>
+
+  <p><strong>2000s</strong>: Although the Internet industry experienced a decline in the
+  early 2000s, database applications continue to grow. New interactive applications were
+  developed for PDAs, point-of-sale transactions, and consolidation of vendors.
+  Presently, the three leading database companies in the western world are Microsoft,
+  IBM, and Oracle.</p>
+
+  <p><strong>Resources</strong></p>
+
+  <p>For more information on database history and structure, please visit the following
+  links:</p>
+
+  <ul>
+    <li><a href="http://www.comphist.org/computing_history/new_page_9.htm">History of
+    Database</a></li>
+
+    <li><a href=
+    "http://www.fing.edu.uy/inco/grupos/csi/esp/Cursos/cursos_act/2000/DAP_DisAvDB/documentacion/OO/Evol_DataModels.html">
+    Evolution of Database Models</a></li>
+
+    <li><a href="http://lyle.smu.edu/~fmoore/timeline.pdf">Timeline of Database
+    Systems</a></li>
+
+    <li><a href="http://www.mountainman.com.au/software/history/intro.html">History of
+    RDBMS</a></li>
+
+    <li><a href=
+    "http://www-03.ibm.com/ibm/history/exhibits/builders/builders_codd.html">Achievements
+    of Edgar F. Codd</a></li>
+
+    <li><a href=
+    "http://pages.cs.wisc.edu/~dbbook/openAccess/thirdEdition/slides/slides3ed.html">Slides
+    for Database Management Systems</a></li>
+  </ul>
+</div>
+</div>
+
+        <section id="signup_bottom">
+          <div class="container">
+            <a class="btn btn-primary btn-xl btn-trial" href="https://www.quickbase.com/db/main?a=pr&amp;p=deppm2s.49">Sign Up for a Free Trial</a>
+            <h2>Get started in QuickBase today.</h2>
+            <p>30-day free trial. No credit card required.</p>
+          </div>
+        </section>
+
+        <footer id="bottom">
+        <section id="footer-links">
+  <div class="container">
+    <div class="row">
+
+      <div class="col">
+        <h4><a href="/product-tour">Learn About QuickBase</a></h4>
+        <ul>
+          <li><a href="/contact-us">Contact Us</a></li>
+          <li><a href="/webinars">Get a Demo</a></li>
+          <li><a href="/exchange">Find an Application</a></li>
+          <li><a href="/customers">Hear from Customers</a></li>
+          <li><a href="/plans-and-pricing">Request a Quote</a></li>
+          <li><a href="/partners/become-a-partner">Become a Partner</a></li>
+          <li><a href="/about-us/careers">Start a Career</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4><a href="/database-applications-for-business">Business App Software</a></h4>
+        <ul>
+          <li><a href="/database-applications-for-business/build-a-custom-database-app-online">Build a Custom Business App</a></li>
+          <li><a href="/database-applications-for-business/project-management-software">Project Management Apps</a></li>
+          <li><a href="/database-applications-for-business/crm-and-sales-management-software">CRM & Sales Software Apps</a></li>
+          <li><a href="/database-applications-for-business/hr-software-and-solutions">HR & Talent Management Apps</a></li>
+          <li><a href="/database-applications-for-business/training-software-and-solutions">Training Management Apps</a></li>
+          <li><a href="/database-applications-for-business/customer-service-and-support-software">Customer Service Apps</a></li>
+          <li><a href="/database-applications-for-business/it-and-is-software-and-solutions">IT & Task Management Apps</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4><a href="/resources">App Building Resources</a></h4>
+        <ul>
+          <li><a href="/exchange">Get a Starter Business App</a></li>
+          <li><a href="/webinars">Sign Up for a Live Demo</a></li>
+          <li><a href="/webinars#recorded">Watch On-Demand Webinars</a></li>
+          <li><a href="/resources/video-tour">See App-Building Videos</a></li>
+          <li><a href="/partners">Find a QuickBase Partner</a></li>
+          <li><a target="_blank" href="http:///quickbase.intuit.com/blog/category/quickbase/">Read the QuickBase Blog</a></li>
+          <li><a href="/plans-and-pricing">Review Plans & Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4><a href="/support">Support & Community</a></h4>
+        <ul>
+          <li><a href="/support/casename">Submit a Support Case</a></li>
+          <li><a target="_blank" href="https://www.quickbase.com/qb/support/redirecttorealm">Check Support Case Status</a></li>
+          <li><a target="_blank" href="https://quickbase-community.intuit.com/">Ask the User Community</a></li>
+          <li><a href="/partners/add-ons">Find a QuickBase Add-On</a></li>
+          <li><a target="_blank" href="http://www.quickbase.com/user-assistance/">Access Online Help Database</a></li>
+          <li><a target="_blank" href="/downloads/quickstart_guide.pdf">Download Quick Start Guide</a></li>
+          <li><a target="_blank" href="http://www.quickbase.com/api-guide/index.html">Integrate Data with the API</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4><a target="_blank" href="http://www.intuit.com/">More Intuit Solutions</a></h4>
+        <ul>
+          <li><a target="_blank" href="http://quickbooks.intuit.com/">QuickBooks Business Finance</a></li>
+          <li><a target="_blank" href="http://payroll.intuit.com/"> Intuit Payroll Services</a></li>
+          <li><a target="_blank" href="http://www.demandforce.com/">Demandforce Marketing</a></li>
+          <li><a target="_blank" href="http://payments.intuit.com/mobile-credit-card-processing/">GoPayment Mobile Payments</a></li>
+          <li><a target="_blank" href="https://turbotax.intuit.com/">TurboTax Tax Preparation</a></li>
+          <li><a target="_blank" href="http://quicken.intuit.com/">Quicken Personal Finance</a></li>
+          <li><a target="_blank" href="https://www.mint.com">Mint Budgeting Software</a></li>
+        </ul>
+      </div>
+
+    </div><!-- /.row -->
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="social">
+          <li class="facebook"><a href="https://www.facebook.com/IntuitQuickBase" title="Facebook"></a></li>
+          <li class="twitter"><a href="http://www.twitter.com/intuitquickbase" title="Twitter"></a></li>
+          <li class="googleplus"><a href="https://plus.google.com/+quickbase/" title="Google Plus"></a></li>
+          <li class="youtube"><a href="http://www.youtube.com/user/intuitquickbase" title="YouTube"></a></li>
+          <li class="linkedin"><a href="http://www.linkedin.com/company/2845325" title="LinkedIn"></a></li>
+        </ul>
+      </div>
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section>
+<section id="footer-intuit-area">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 branding-left">
+        <div class="branding">
+          <a href="http://www.intuit.com"><img alt="Intuit" src="/images/intuit-logo-simplify.png" title="Intuit" width="312" height="24"></a>
+        </div>
+        <p>
+          &copy; 2014 Intuit, Inc. All rights reserved. Intuit and QuickBase are
+          registered trademarks of Intuit, Inc.<br>
+          Terms and conditions, features, support, pricing, and service options
+          subject to change without notice.
+        </p>
+      </div>
+      <div class="col-md-4 certs-right">
+        <ul class="footer-legal-links">
+          <li><a href="/legal-notices" data-wa-link="intcom-legal-Legal">Legal Notices</a></li>
+          <li><a href="/terms-of-service" data-wa-link="intcom-legal-Security">Terms of Service</a></li>
+          <li><a href="/privacy" data-wa-link="intcom-legal-Privacy">Privacy</a></li>
+          <li><a href="/sitemap">Sitemap</a></li>
+        </ul>
+        <div id="certs">
+            <img src="/redesign/images/aicpa.png" alt="Online Database SSAE Audit" width="55" height="50" />
+            <a href="http://www.truste.org/ivalidate.php?ctv_group=IntuitSMB&amp;companyName=Intuit&amp;sealid=101" rel="external nofollow"><img src="/redesign/images/truste-certified-privacy.png" alt="Web Based Software TRUSTe Certification" width="122" height="34"></a>
+            <a href="https://seal.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=QUICKBASE.INTUIT.COM&amp;lang=en" rel="external nofollow"><img src="/redesign/images/verisign-secured.png" alt="Online Database VeriSign Secured" width="88" height="44"></a>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>        </footer>
+    </div>
+
+    <script type="text/javascript" src="http://gainsi.com/wi/252/jq/1/b/365ebf/p/br/t/y/"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","licenseKey":"12b72f8f2d","applicationID":"2423127","transactionName":"Zl0ANRBQWUNWBhALXV8XIwIWWFheGAEBBFNEVBZOA0NDWVQJAREdRVEPBA5YWVUaCgJPVlBMAwMDQlIdXwwXFl1DQQ==","queueTime":0,"applicationTime":208,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-400.min.js"}</script></body>
+</html>

@@ -1,0 +1,1314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb"><head>
+<meta name="google-site-verification" content="aK_Phyynd78ks67zUkdxo_mQj6E8DuPHDr_Hkj7O4VM">
+<link href="https://plus.google.com/+DineshThakurG?rel=author">
+<link href="https://plus.google.com/+DineshThakurG?rel=publisher">
+<script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/plusone.js" async="" type="text/javascript"></script><script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/all.js" id="facebook-jssdk"></script><script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27232614-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  <!-- base href="http://ecomputernotes.com/fundamental/what-is-a-database/advantages-and-disadvantages-of-dbms" -->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="keywords" content="Advantages and Disadvantages of DBMS">
+  <meta name="author" content="Dinesh Thakur">
+  <meta name="description" content="DBMS A database management system is the software system that allows users to define, create and maintain a database and provides controlled access to the data.">
+  <meta name="generator" content="Computer Notes">
+  <title>What is DBMS? Advantages and Disadvantages of DBMS.</title>
+  <link href="http://ecomputernotes.com/templates/youheadline/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <style type="text/css">
+
+#blankBM91{overflow:hidden;width:100%;background:#FFFFFF}
+#blankBM95{overflow:hidden;width:100%;background:#FFFFFF}
+#blankBM96{overflow:hidden;width:100%;background:#FFFFFF}
+#blankBM90{overflow:hidden;width:100%;background:#FFFFFF}
+  </style>
+  <script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/core.js" type="text/javascript"></script>
+  <script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/caption.js" type="text/javascript"></script>
+  <script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/styles.js" type="text/javascript"></script>
+  <script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/yjresponsive.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+  <link rel="stylesheet" href="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/yjresponsive.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="apple-touch-fullscreen" content="YES">
+  
+  
+  
+  
+  <meta property="og:url" content="http://ecomputernotes.com/fundamental/what-is-a-database/advantages-and-disadvantages-of-dbms">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="What is DBMS? Advantages and Disadvantages of DBMS.">
+  <meta property="og:description" content="DBMS A database management system is the software system that allows users to define, create and maintain a database and provides controlled access to the data.
+A Database Management System (DBMS) is basically a collection of programs that enable...">
+  <meta property="og:image" content="http://ecomputernotes.com/images/Components of the Database System Environment.jpg">
+
+		<link href="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/compress.css" rel="stylesheet" type="text/css">
+
+
+									<script type="text/javascript"> var YJSG_topmenu_font = '12px'; </script>
+			<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/mouseover13.js"></script>
+			<script language="javascript" type="text/javascript">	
+			window.addEvent('domready', function(){
+				new SmoothDrop({
+					'container':'horiznav',	
+					contpoz: 0,
+					horizLeftOffset: 24, // submenus, left offset
+					horizRightOffset: -24, // submenus opening into the opposite direction
+					horizTopOffset: 20, // submenus, top offset
+					verticalTopOffset:49, // main menus top offset
+					verticalLeftOffset: 10, // main menus, left offset
+					maxOutside: 50
+				});
+			});				
+			</script>	
+			<style type="text/css">
+			.horiznav li li,.horiznav ul ul a, .horiznav li ul,.YJSG_listContainer{
+			width:280px;
+		}
+			</style>
+	<!--Border radius-->
+	<script type="text/javascript">
+    window.addEvent('load', function() {
+        $$('.yhls .yj_inputbox,.yhls .button,.LiveSearchResults.defaultfeed,.yhme .yjme_item div.item_details,.yhme2 .yjme_item div.item_details,.yhme .yjme_item a.item_readmore,.yhme2 .yjme_item a.item_readmore,.yhym .yjme_item div.item_details,.yhym .yjme_item a.item_readmore,.yhme3 .yjme_item a.item_readmore,.yhmt .yjme_item a.item_readmore,div.k2TagCloudBlock a,.yhme4 .yjme_item div.item_details,.yhme4 .yjme_item a.item_readmore,.yhme5 .yjme_item div.item_details,.yhme5 .yjme_item a.item_readmore,.inputbox_email,.subscribe_button,.yj_date_holder,a.subCategoryMore,a.subCategoryMore:visited,div.catItemTagsBlock ul li,div.catItemReadMore,div.itemTagsBlock ul li,#submitCommentButton,.tagView .itemReadMore,.userView .itemReadMore,.genericView .itemReadMore,.inputbox,.button, .validate,.readon,.readon span,div.itemAuthorBlock,.itemComments,.userView .userBlock,.yj4,.yj5,#pathway,.k2bread').setStyles({
+             borderRadius: '5px',
+             WebkitBorderRadius:'5px',
+             MozBorderRadius:'5px'
+        });
+    });
+    </script>
+<style type="text/css">
+.horiznav li ul ul,.subul_main.group_holder ul.subul_main ul.subul_main, .subul_main.group_holder ul.subul_main ul.subul_main ul.subul_main, .subul_main.group_holder ul.subul_main ul.subul_main ul.subul_main ul.subul_main,.horiznav li li li:hover ul.dropline{
+	margin-top: -32px!important;
+	margin-left:95%!important;
+}
+</style>
+
+<link href="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/prettify.css" type="text/css" rel="stylesheet"></head>
+<body id="stylef12">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=289266811104570";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  		  		 <!--header-->
+ <div class="header_out">
+ <div class="header_in" style="font-size:12px;width:100%; ">
+   <div id="header" style="height:109px;">
+      <div id="logo" class="png" style="height:109px;width:20.5%;">
+           <a href="http://ecomputernotes.com/" style="height:109px;"></a>
+          </div>
+    <!-- end logo -->
+   <div id="yjsgheadergrid" style="width:78%;">
+		<div id="header2" class="yjsgxhtml" style="width:100.00%;">
+		<div class="yjsquare">
+    <div class="yjsquare_in"><div id="blankBM90"><form action="http://www.google.co.in" id="cse-search-box">
+  <div style="display:block;float:right; margin:20px 0px 0px 0px;">
+    <input name="cx" value="partner-pub-4339819269747791:0782650643" type="hidden">
+    <input name="ie" value="UTF-8" type="hidden">
+    <input style="border: 1px solid rgb(126, 157, 185); padding: 2px; background: url(&quot;http://www.google.co.in/cse/intl/en/images/google_custom_search_watermark.gif&quot;) no-repeat scroll left center rgb(255, 255, 255);" name="q" size="25" type="text">
+    <input name="sa" value="Search" type="submit">
+  </div>
+<input value="ecomputernotes.com/fundamental/what-is-a-database/advantages-and-disadvantages-of-dbms" name="siteurl" type="hidden"><input name="ref" type="hidden"><input name="ss" type="hidden"></form>
+
+<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/brand"></script>
+
+<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/query_renderer.js"></script>
+
+<script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/js"></script><br><br></div>
+
+</div>
+</div>
+
+	</div>
+	</div>
+  </div>
+  </div>
+  </div>
+  <!-- end header -->
+  		    <!--top menu-->
+<div class="menu_out">
+    <div id="topmenu_holder" style="width:100%;">
+        <div class="top_menu" style="font-size:12px;">
+            <div id="horiznav" class="horiznav">	<ul class="menunav">
+	<li class="item435"><span class="mymarg"><a class="yjanchor " href="http://ecomputernotes.com/"><span class="yjm_has_none"><span class="yjm_title">Home</span></span></a></span></li><li class="item577"><span class="mymarg"><a class="yjanchor " href="http://www.ysurfing.com/"><span class="yjm_has_none"><span class="yjm_title">Technology Motivation</span></span></a></span></li><li class="item575"><span class="mymarg"><a class="yjanchor " href="http://ecomputernotes.com/article"><span class="yjm_has_none"><span class="yjm_title">Article</span></span></a></span></li><li class="item604"><span class="mymarg"><a class="yjanchor " href="https://plus.google.com/u/0/communities/107703108132698239163"><span class="yjm_has_none"><span class="yjm_title">Discussion Forum</span></span></a></span></li><li class="item633"><span class="mymarg"><a class="yjanchor " href="http://ecomputernotes.com/about"><span class="yjm_has_none"><span class="yjm_title">About Us</span></span></a></span></li></ul></div>
+        </div>
+    </div>
+</div>
+    <!-- end top menu -->
+  		  		<div id="centertop" style="font-size:12px; width:100%;">
+  		                
+</div>
+<!-- end centartop-->
+<div id="centerbottom" style="font-size:12px; width:100%;">
+       <!--MAIN LAYOUT HOLDER -->
+<div id="holder2">
+  <!-- messages -->
+  
+<div id="system-message-container">
+</div>
+  <!-- end messages -->
+  <!-- MID BLOCK -->
+  <div id="midblock" style="width:65%;">
+    <div class="insidem">
+                  <!-- component -->
+      
+<div class="news_item_a">
+		
+		
+	
+		<div class="title">
+	
+		<h1>
+						<a href="http://ecomputernotes.com/fundamental/what-is-a-database/advantages-and-disadvantages-of-dbms" class="contentpagetitle"> 
+				What is DBMS? Advantages and Disadvantages of DBMS. 
+			</a>
+					</h1>
+		
+	</div>
+				
+	
+		<div class="newsitem_tools">
+		<div class="newsitem_info">
+						
+						<span class="createby">
+				by Dinesh Thakur 
+			</span>
+						
+				
+			
+						
+			<div class="clr"></div>
+				
+					</div>
+		
+			</div>
+	
+	
+	<div class="newsitem_text">
+		              
+		        
+        
+		<div><div style="display:block;float:right;margin: 0px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4339819269747791";
+/* Skyper */
+google_ad_slot = "9666818867";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/show_ads.js">
+</script>
+</div></div><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><strong>DBMS</strong> A <strong>database management system</strong> is the software system that allows users to define, create and maintain a database and provides controlled access to the data.</span></p><div><div style="display:block;float:left;margin: 0px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4339819269747791";
+/* 300 x 250 */
+google_ad_slot = "0187217147";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/show_ads.js">
+</script>
+</div></div>
+<p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">A
+ Database Management System (DBMS) is basically a collection of programs
+ that enables users to store, modify, and extract information from a 
+database as per the requirements. DBMS is an intermediate layer between 
+programs and the data. Programs access the DBMS, which then accesses the
+ data. There are different types of DBMS ranging from small systems that
+ run on personal computers to huge systems that run on mainframes. The 
+following are main examples of database applications:</span>
+ 
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Computerized library systems</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Automated teller machines</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Flight reservation systems</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Computerized parts inventory systems</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">A
+ database management system is a piece of software that provides 
+services for accessing a database, while maintaining all the required 
+features of the data. Commercially available Database management systems
+ in the market are dbase, FoxPro, IMS and Oracle, MySQL, SQL Servers and
+ DB2 etc.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">These systems allow users to create update, and extract information from their databases.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Compared
+ to a manual filing system, the biggest advantages to a computerized 
+database system are speed, accuracy, and' accessibility.</span>
+</p><h2 style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 14pt;"><b>Who makes this database software?</b></span></h2>
+<p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">There
+ are a lot of database software manufacturers out there and a wide range
+ of prices, sizes, speeds and functionalities. At the lower end of the 
+scale are personal database software products like Microsoft Access, 
+which is designed to be used by individuals or small companies 
+relatively little data. User friendliness and ease of use are the 
+priority rather than speed and scalability (in other words, it works 
+well when you have 100 records but not when you have 100,000). At the 
+higher end are full-fledged enterprise solutions, such as Oracle 
+Enterprise Edition. These database software products can handle millions
+ of data entries and are fast and efficient. They have ·many 
+optimization and performance tools and generally require a Database 
+Administrator (DBA) to look after them. Products in this range can also 
+be very expensive.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In
+ the middle are products like Microsoft SQL Server, which is a logical 
+upgrade from Microsoft Access for Windows users. There are also several 
+very good free database software products, such as MySQL and PostgreSQL.
+ These are lacking on the user interface side, but can certainly compete
+ on speed and scalability.</span>
+</p><h2 style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 14pt;"><b>Developments and Evolution of DBMS Concept</b></span></h2>
+<p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">We
+ have already seen that the predecessor to the DBMS was the file-based 
+system. However, there was never a time when the database approach began
+ and the file-based system ceased. In fact, the file-based system still 
+exists in specific areas. It has been suggested that the DBMS has its 
+roots in the 1960s Apollo moon-landing project, which was initiated in 
+response to USA's President Kennedy's objective of landing a man on the 
+moon by the end of that decade. At that time there was no system 
+available that would be able to handle and manage the vast amounts of 
+information that the project would generate. As a result, North American
+ Aviation (NAA, now Rockwell International), the prime contractor for 
+the project, developed software known as GUAM (Generalized Update Access
+ Method). GUAM was based on the concept that smaller components come 
+together as parts of larger components, and so on, until the final 
+product is assembled. This structure, which confirms to an upside down 
+tree, is also known as a hierarchical structure.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In
+ the mid 1960s, IBM joined NAA to develop GUAM into what is now known as
+ IMS (Information Management System). The reason why IBM restricted IMS 
+to the management of hierarchies of records was to allow the use of 
+serial <a class="sitelinkx" href="http://ecomputernotes.com/fundamental/input-output-and-memory/explain-secondary-storage-devices" title="Storage devices those are used for Storing the data in a Permanent Manner" target="_self">storage devices</a>,
+ most notably magnetic tape, which was a market requirement at that 
+time. This restriction was subsequently dropped. Although one of the 
+earliest commercial DBMS, IMS is still main hierarchical DBMS used by 
+most large mainframe installations.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In
+ the mid-1960s, another significant development was the emergency of IDS
+ (Integrated Data Store) from General Electric. This work was headed by 
+one of the early pioneers of database systems, Charles Bachmann. This 
+development led to a new type of database system known as the network 
+DBMS, which had a profound effect on the information systems of that 
+generation. The network database was developed partly to address the 
+need to represent more complex data relationships that could be modeled 
+with hierarchical structures, and partly to impose a database standard. 
+To help establish such standards, the Conference on Data Systems 
+Languages (CODASYL), comprising representatives of the US government and
+ the world of business and commerce formed a List Processing Task Force 
+in 1965, subsequently renamed the Data Base Task Group (DBTG) in 1967. 
+The terms of reference for the DBTG were to define standard 
+specifications for an environment that would allow database creation and
+ data manipulation. A draft report was issued in 1969 and the first 
+definitive report in 1971.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Although,
+ the report, was not formally adopted by the American National Standards
+ Institute (ANSI), a number of systems were subsequently developed 
+following the DBTG proposal. These systems are now known as CODASYL or 
+DBTG systems. The CODASYL and hierarchical approaches represented the 
+first-generation of DBMSs.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In
+ 1970 E.F. Codd of the IBM Research Laboratory produced his highly 
+influential paper on the relational data model. This paper was very 
+timely and addressed the disadvantages of the former approaches. Many 
+experimental relational DBMS's were implemented there after, with the 
+first commercial products appearing in the late 1970s and early 1980s. 
+Of particular note is the System R project at IBM's San Jose Research 
+Laboratory in California, which was developed during the late 1970s.This
+ project was designed to prove the practicality of the relational model 
+by providing an implementation of its data structures and operations, 
+and led to two major developments:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• The development 'of a structure query language called SQL, which has since become the standard language for relational DBMS's.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">•
+ The production of various commercial relational DBMS products during 
+the 1980s, for example DB2 and SQL/DS from IBM and Oracle Corporation.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Now there are several hundred relational DBMSs for both mainframe and <a class="sitelinkx" href="http://ecomputernotes.com/fundamental/introduction-to-computer/personal-computer" title="" target="_self">PC</a>
+ environments, though many are stretching the definition of the 
+relational model. Other examples of multi-user relational DBMSs are 
+INGRES-II from <a class="sitelinkx" href="http://ecomputernotes.com/fundamental/introduction-to-computer/what-is-computer" title="Computer is an advanced electronic device that takes raw data as input from the user and processes these data under the control of set of instructions (called program)." target="_self">Computer</a>
+ Associates, and Informix Software, Inc. Examples of PC-based relational
+ l)BMSs are Access and FoxPro from Microsoft, Paradox from Corel 
+Corporation, InterBase and BDE from Borland, and R:Base from R:Base 
+Technologies. Relational DBl\1Ss are referred to as second generation 
+DBMSs</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The
+ relational model is not without its failures, and in particular its 
+limited modeling capabilities. There has been much research since then 
+attempting to address this problem. In 1976, Chen presented the 
+Entity-Relationship model, which are now a widely accepted technique for
+ database design and the basis for the methodology.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In
+ 1979, Codd himself attempted to address some of the failures in-his 
+original work with an extended version of the relational model called 
+RM/T (1979) and subsequently RM/V2 (1990).The attempts to provide a data
+ model that represents the 'real world' more closely have been loosely 
+classified as semantic data modeling.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In
+ response to the increasing complexity of database applications, two new
+ systems have emerged: the Object Oriented DBMS (OODBMS) and the 
+Object-Relational DBMS (ORDBMS). This evolution represents 
+third-generation DBMSs.</span>
+</p><h2 style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 14pt;"><b>Components of the Database System Environment</b></span></h2>
+<p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">There are five major components in the database system environment and their interrelationship are.<br></span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">&nbsp;</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Hardware</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Software</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Data</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Users</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Procedures</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://ecomputernotes.com/images/Components%20of%20the%20Database%20System%20Environment.jpg" title="What is DBMS? Advantages and Disadvantages of DBMS." rel="lightbox-article"><img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/thumb553-Components%252520of%252520the%252520Database%252520System%252.jpg" alt="What is DBMS? Advantages and Disadvantages of DBMS." class="thumb-plg"></a></b></span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>1.</b><b>Hardware:</b> The hardware is the actual <a class="sitelinkx" href="http://ecomputernotes.com/fundamental/introduction-to-computer/what-is-computer" title="Computer is an electronic device that is designed to work with Information." target="_self">computer</a>
+ system used for keeping and accessing the database. Conventional DBMS 
+hardware consists of secondary storage devices, usually hard disks, on 
+which the database physically resides, together with the associated 
+Input-Output devices, device controllers and· so forth. Databases run on
+ a' range of machines, from Microcomputers to large mainframes. Other 
+hardware issues for a DBMS includes database machines, which is hardware
+ designed specifically to support a database system.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>2. Software:</b>
+ The software is the actual DBMS. Between the physical database itself 
+(i.e. the data as actually stored) and the users of the system is a 
+layer of software, usually called the Database Management System or 
+DBMS. All requests from users for access to the database are handled by 
+the DBMS. One general function provided by the DBMS is thus the 
+shielding of database users from complex hardware-level detail.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The
+ DBMS allows the users to communicate with the database. In a sense, it 
+is the mediator between the database and the users. The DBMS controls 
+the access and helps to maintain the consistency of the data. Utilities 
+are usually included as part of the DBMS. Some of the most common 
+utilities are report writers and application development.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="http://ecomputernotes.com/images/BRIDGE.jpg" title="What is DBMS? Advantages and Disadvantages of DBMS." rel="lightbox-article"><img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/thumb553-BRIDGE-705b44232a6b2c378925ae3179333fef.jpg" alt="What is DBMS? Advantages and Disadvantages of DBMS." class="thumb-plg"></a><br data-mce-bogus="1"></span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>3. Data :</b>
+ It is the most important component of DBMS environment from the end 
+users point of view. As shown in observes that data acts as a bridge 
+between the machine components and the user components. The database 
+contains the operational data and the meta-data, the 'data about data'.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The
+ database should contain all the data needed by the organization. One of
+ the major features of databases is that the actual data are separated 
+from the programs that use the data. A database should always be 
+designed, built and populated for a particular audience and for a 
+specific purpose.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>4. </b><b>Users :</b>
+ There are a number of users who can access or retrieve data on demand 
+using the applications and interfaces provided by the DBMS. Each type of
+ user needs different software capabilities. The users of a database 
+system can be classified in the following groups, depending on their 
+degrees of expertise or the mode of their interactions with the DBMS. 
+The users can be:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Naive Users</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Online Users</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Application Programmers</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Sophisticated Users</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Data Base Administrator (DBA)</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Naive Users:</b>
+ Naive Users are those users who need not be aware of the presence of 
+the database system or any other system supporting their usage. Naive 
+users are end users of the database who work through a menu driven 
+application program, where the type and range of response is always 
+indicated to the user.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">A
+ user of an Automatic Teller Machine (ATM) falls in this category. The 
+user is instructed through each step of a transaction. He or she then 
+responds by pressing a coded key or entering a numeric value. The 
+operations that can be performed by valve users are very limited and 
+affect only a precise portion of the database. For example, in the case 
+of the user of the Automatic Teller Machine, user's action affects only 
+one or more of his/her own accounts.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Online Users :</b>
+ Online users are those who may communicate with the database directly 
+via an online terminal or indirectly via a user interface and 
+application program. These users are aware of the presence of the 
+database system and may have acquired a certain amount of expertise with
+ in the limited interaction permitted with a database.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Sophisticated Users :</b> Such users interact with the system without ,writing programs.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Instead,
+ they form their requests in database query language. Each such query is
+ submitted to a very processor whose function is to breakdown DML 
+statement into instructions that the storage manager understands.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Specialized Users :</b>
+ Such users are those ,who write specialized database application that 
+do not fit into the fractional data-processing framework. For example: 
+Computer-aided design systems, knowledge base and expert system, systems
+ that store data with complex <a class="sitelinkx" href="http://ecomputernotes.com/java/data-type-variable-and-array/explain-data-types-in-java" title="" target="_self">data type</a>s (for example, graphics data and audio data).</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Application Programmers</b> <b>:</b>
+ Professional programmers are those who are responsible for developing 
+application programs or user interface. The application programs could 
+be written using general purpose programming language or the commands 
+available to manipulate a database.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Database Administrator: </b>The
+ database administrator (DBA) is the person or group in charge for 
+implementing the database system ,within an organization. The "DBA has 
+all the system privileges allowed by the DBMS and can assign (grant) and
+ remove (revoke) levels of access (privileges) to and from other users. 
+DBA is also responsible for the evaluation, selection and implementation
+ of DBMS package. <br></span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>5. </b><b>Procedures:</b>
+ Procedures refer to the instructions and rules that govern the design 
+and use of the database. The users of the system and the staff that 
+manage the database require documented procedures on how to use or run 
+the system.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">These may consist of instructions on how to:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Log on to the DBMS.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Use a particular DBMS facility or application program.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Start and stop the DBMS.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Make backup copies of the database.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">• Handle hardware or software failures.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Change
+ the structure of a table, reorganize the database across multiple 
+disks, improve performance, or archive data to secondary storage.</span>
+</p><h2 style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 14pt;"><b>Advantages of DBMS</b></span></h2>
+<p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The database management system has promising potential advantages, which are explained below:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">&nbsp;</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>1. Controlling Redundancy:</b>
+ In file system, each application has its own private files, which 
+cannot be shared between multiple applications. 1:his can often lead to 
+considerable redundancy in the stored data, which results in wastage of 
+storage space. By having centralized database most of this can be 
+avoided. It is not possible that all redundancy should be eliminated. 
+Sometimes there are sound business and technical reasons for· 
+maintaining multiple copies of the same data. In a database system, 
+however this redundancy can be controlled.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>For example:</b>
+ In case of college database, there may be the number of applications 
+like General Office, Library, Account Office, Hostel etc. Each of these 
+applications may maintain the following information into own private 
+file applications:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="http://ecomputernotes.com/images/Redundancy.jpg" title="What is DBMS? Advantages and Disadvantages of DBMS." rel="lightbox-article"><img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/thumb553-Redundancy-92af22754ccec11891b3d6948132fa77.jpg" alt="What is DBMS? Advantages and Disadvantages of DBMS." class="thumb-plg"></a></span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It
+ is clear from the above file systems, that there is some common data of
+ the student which has to be mentioned in each application, like Rollno,
+ Name, Class, Phone_No~ Address etc. This will cause the problem of 
+redundancy which results in wastage of storage space and difficult to 
+maintain, but in case of centralized database, data can be shared by 
+number of applications and the whole college can maintain its 
+computerized data with the following database:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="http://ecomputernotes.com/images/Redundancy-b.jpg" title="What is DBMS? Advantages and Disadvantages of DBMS." rel="lightbox-article"><img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/thumb553-Redundancy-b-3657051619f34c1de61a2ea622c1c968.jpg" alt="What is DBMS? Advantages and Disadvantages of DBMS." class="thumb-plg"></a><br data-mce-bogus="1"></span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It is clear in the above database that Rollno, Name, Class, Father_Name, Address,</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Phone_No,
+ Date_of_birth which are stored repeatedly in file system in each 
+application, need not be stored repeatedly in case of database, because 
+every other application can access this information by joining of 
+relations on the basis of common column i.e. Rollno. Suppose any user of
+ Library system need the Name, Address of any particular student and by 
+joining of Library and General Office relations on the basis of column 
+Rollno he/she can easily retrieve this information.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Thus,
+ we can say that centralized system of DBMS reduces the redundancy of 
+data to great extent but cannot eliminate the redundancy because RollNo 
+is still repeated in all the relations.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>2. </b><b>Integrity can be enforced:</b>
+ Integrity of data means that data in database is always accurate, such 
+that incorrect information cannot be stored in database. In order to 
+maintain the integrity of data, some integrity constraints are enforced 
+on the database. A DBMS should provide capabilities for defining and 
+enforcing the constraints.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">For
+ Example: Let us consider the case of college database and suppose that 
+college having only BTech, MTech, MSc, BCA, BBA and BCOM classes. But if
+ a \.,ser enters the class MCA, then this incorrect information must not
+ be stored in database and must be prompted that this is an invalid data
+ entry. In order to enforce this, the integrity constraint must be 
+applied to the class attribute of the student entity. But, in case of 
+file system tins constraint must be enforced on all the application 
+separately (because all applications have a class field).</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In case of DBMS, this integrity constraint is applied only once on the class field of the</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">General
+ Office (because class field appears only once in the whole database), 
+and all other applications will get the class information about the 
+student from the General Office table so the integrity constraint is 
+applied to the whole database. So, we can conclude that integrity 
+constraint can be easily enforced in centralized DBMS system as compared
+ to file system.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>3. </b><b>Inconsistency can be avoided </b>:
+ When the same data is duplicated and changes are made at one site, 
+which is not propagated to the other site, it gives rise to 
+inconsistency and the two entries regarding the same data will not 
+agree. At such times the data is said to be inconsistent. So, if the 
+redundancy is removed chances of having inconsistent data is also 
+removed.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Let us again, consider the college system and suppose that in case of General_Office file</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">it is indicated that Roll_Number 5 lives in Amritsar but in library file it is indicated that</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Roll_Number
+ 5 lives in Jalandhar. Then, this is a state at which tIle two entries 
+of the same object do not agree with each other (that is one is updated 
+and other is not). At such time the database is said to be inconsistent.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">An
+ inconsistent database is capable of supplying incorrect or conflicting 
+information. So there should be no inconsistency in database. It can be 
+clearly shown that inconsistency can be avoided in centralized system 
+very well as compared to file system ..</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Let
+ us consider again, the example of college system and suppose that 
+RollNo 5 is .shifted from Amritsar to Jalandhar, then address 
+information of Roll Number 5 must be updated, whenever Roll number and 
+address occurs in the system. In case of file system, the information 
+must be updated separately in each application, but if we make updation 
+only at three places and forget to make updation at fourth application, 
+then the whole system show the inconsistent results about Roll Number 5.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In
+ case of DBMS, Roll number and address occurs together only single time 
+in General_Office table. So, it needs single updation and then an other 
+application retrieve the address information from General_Office which 
+is updated so, all application will get the current and latest 
+information by providing single update operation and this single update 
+operation is propagated to the whole database or all other application 
+automatically, this property is called as Propagation of Update.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">We
+ can say the redundancy of data greatly affect the consistency of data. 
+If redundancy is less, it is easy to implement consistency of data. 
+Thus, DBMS system can avoid inconsistency to great extent.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>4. </b><b>Data can be shared:</b>
+ As explained earlier, the data about Name, Class, Father __name etc. of
+ General_Office is shared by multiple applications in centralized DBMS 
+as compared to file system so now applications can be developed to 
+operate against the same stored data. The applications may be developed 
+without having to create any new stored files.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">&nbsp;</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>5. Standards can be enforced</b>
+ : Since DBMS is a central system, so standard can be enforced easily 
+may be at Company level, Department level, National level or 
+International level. The standardized data is very helpful during 
+migration or interchanging of data. The file system is an independent 
+system so standard cannot be easily enforced on multiple independent 
+applications.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>6. </b><b>Restricting unauthorized access:</b>
+ When multiple users share a database, it is likely that some users will
+ not be authorized to access all information in the database. For 
+example, account office data is often considered confidential, and hence
+ only authorized persons are allowed to access such data. In addition, 
+some users may be permitted only to retrieve data, whereas other are 
+allowed both to retrieve and to update. Hence, the type of access 
+operation retrieval or update must also be controlled. Typically, users 
+or user groups are given account numbers protected by passwords, which 
+they can use to gain access to the database. A DBMS should provide a 
+security and authorization subsystem, which the DBA uses to create 
+accounts and to specify account restrictions. The DBMS should then 
+enforce these restrictions automatically.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>7. </b><b>Solving Enterprise Requirement than Individual Requirement:</b>
+ Since many types of users with varying level of technical knowledge use
+ a database, a DBMS should provide a variety of user interface. The 
+overall requirements of the enterprise are more important than the 
+individual user requirements. So, the DBA can structure the database 
+system to provide an overall service that is "best for the enterprise".</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">For
+ example: A representation can be chosen for the data in storage that 
+gives fast access for the most important application at the cost of poor
+ performance in some other application. But, the file system favors the 
+individual requirements than the enterprise requirements</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>8.</b> <b>Providing Backup and Recovery: </b>A
+ DBMS must provide facilities for recovering from hardware or software 
+failures. The backup and recovery subsystem of the DBMS is responsible 
+for recovery. For example, if the computer system fails in the middle of
+ a complex update program, the recovery subsystem is responsible for 
+making sure that the .database is restored to the state it was in before
+ the program started executing.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>9.</b> <b>Cost of developing and maintaining system is lower: </b>It
+ is much easier to respond to unanticipated requests when data is 
+centralized in a database than when it is stored in a conventional file 
+system. Although the initial cost of setting up of a database can be 
+large, but the cost of developing and maintaining application programs 
+to be far lower than for similar service using conventional systems. The
+ productivity of programmers can be higher in using non-procedural 
+languages that have been developed with DBMS than using procedural 
+languages.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>10. Data</b> <b>Model can be developed : </b>The
+ centralized system is able to represent the complex data and interfile 
+relationships, which results better data modeling properties. The data 
+madding properties of relational model is based on Entity and their 
+Relationship, which is discussed in detail in chapter 4 of the book.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">11. <b>Concurrency Control : </b>DBMS systems provide mechanisms to provide concurrent access of data to multiple users.</span>
+</p><h2 style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 14pt;"><b>Disadvantages of DBMS</b></span></h2>
+<p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The disadvantages of the database approach are summarized as follows:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>1.</b> <b>Complexity : </b>The
+ provision of the functionality that is expected of a good DBMS makes 
+the DBMS an extremely complex piece of software. Database designers, 
+developers, database administrators and end-users must understand this 
+functionality to take full advantage of it. Failure to understand the 
+system can lead to bad design decisions, which can have serious 
+consequences for an organization.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>2.</b> <b>Size : </b>The
+ complexity and breadth of functionality makes the DBMS an extremely 
+large piece of software, occupying many megabytes of disk space and 
+requiring substantial amounts of <a class="sitelinkx" href="http://ecomputernotes.com/fundamental/input-output-and-memory/what-are-the-different-types-of-ram-explain-in-detail" title="Random Access Memory (RAM) is the best known form of Computer Memory" target="_self">memory</a> to run efficiently.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>3.</b> <b>Performance: </b>Typically,
+ a File Based system is written for a specific application, such as 
+invoicing. As result, performance is generally very good. However, the 
+DBMS is written to be more general, to cater for many applications 
+rather than just one. The effect is that some applications may not run 
+as fast as they used to.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>4.</b> <b>Higher impact of a failure: </b>The
+ centralization of resources increases the vulnerability of the system. 
+Since all users and applications rely on the ~vailabi1ity of the DBMS, 
+the failure of any component can bring operations to a halt.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>5.</b> <b>Cost of DBMS: </b>The
+ cost of DBMS varies significantly, depending on the environment and 
+functionality provided. There is also the recurrent annual maintenance 
+cost.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>6. Additional Hardware costs:</b>
+ The disk storage requirements for the DBMS and the database may 
+necessitate the purchase of additional storage space. Furthermore, to 
+achieve the required performance it may be necessary to purchase a 
+larger machine, perhaps even a machine dedicated to running the DBMS. 
+The procurement of additional hardware results in further expenditure.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">&nbsp;</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>7. Cost of Conversion:</b>
+ In some situations, the cost oftlle DBMS and extra hardware may be 
+insignificant compared with the cost of converting existing applications
+ to run on the new DBMS and hardware. This cost also includes the cost 
+of training staff to use these new systems and possibly the employment 
+of specialist staff to help with conversion and running of the system. 
+This cost is one of the main reasons why some organizations feel tied to
+ their current systems and cannot switch to modern database technology.</span>
+</p><h2 style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 14pt;"><b>When not to Use a DBMS</b></span></h2>
+<p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">In
+ spite of the advantages of using a DBMS, there are a few situations in 
+which such a system may involve unnecessary overhead costs, as that 
+would not be incurred in traditional file processing.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The overhead costs of using a DBMS are due to the following:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">+ High initial investment in hardware, software, and training.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">+ Generality that a DBMS provides for defining and processing data.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">+ Overhead for providing security, concurrency control, recovery, and integrity functions.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Additional
+ problems may arise, if the database designers and DBA do not properly 
+design the database or if the database systems applications are not 
+implemented properly.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">Hence, it may be more desirable to use regular files under the following circumstances:</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">+ The database and applications are simple, well defined and not expected to change.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">+ There are tight real-time requirements for some programs that may not be met because of DBMS overhead.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">+ Multiple user access to data is not required.</span>
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">+ An application may need to manipulate the data in a way not supported by the query language.</span>
+</p><p>&nbsp;
+</p><p style="text-align: justify;">&nbsp;
+</p><h2 style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Requirement for a DBMS</b></span></h2>
+<p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The
+ software responsible for the management data in computers i.e. DBMS 
+(like Oracle, Foxpro, SQL Server etc.) should meet the following 
+requirements:</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Provide data definition facilities</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It should support Data Definition Language (DDL) and provides user accessible catalog Known as Data Dictionary.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Provide facilities for storing, retrieving and </b>updating data</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It should support Data Manipulation Language (DML), so that required data can be inserted, updated, deleted and retrieved.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Supports multiple view of data</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The end user should have the facility of flexible query language so that required information can be accessed easily.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Provides facilities for specifying Integrity constraints</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It
+ should support the constraints like Primary key, foreign key during 
+creation of tables so that only the valid information is stored in the 
+database. As soon as, we try to insert any incorrect information it 
+should display the error message.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Provide security of data</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It should have the facilities for controlling access to data and prevent unauthorized access and update.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Provide concurrency control mechanism</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It should allow simultaneous access and update of data by multiple users</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Support Transactions</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It
+ should support all the properties of transaction known as ACID 
+properties. It means a sequence of operations to be performed as a 
+whole. In other words all operations are performed or none.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Provide facilities for database recovery</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It should bring database back to consistent state after a failure such as disk failure, faulty program etc.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>&nbsp;</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Provide facilities for database maintenance</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">It should support maintenance operations like unload, reload, mass insertion, deletion and validation of data.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;"><b>Master and transaction file</b></span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">A
+ master file stores relatively static data. It changes occasionally and 
+stores all the details of the object. For example, in case of banking 
+software the customer file which contain the data about the customer 
+like customer_id, account_no, account_type, name, address, phone_number 
+etc. is a master file, because it contain the static data and whole 
+information about the customer.</span>
+</p><p style="text-align: justify;">&nbsp;
+</p><p style="text-align: justify;"><span style="font-family: georgia,palatino; font-size: 12pt;">The
+ other file, which contains the data about the customer transactions, is
+ called as a Transaction file. The customer transaction file contains 
+the data about the account_no,\ transaction_)d, date, transaction_type 
+(e.g. deposit or withdrawal), amount, balance etc. It is dynamic file 
+and updated each time for any withdrawal and deposit on a given account 
+number.</span>
+</p><p style="text-align: justify;">&nbsp;</p><div><div style="display:block;float:left;margin: 0px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4339819269747791";
+/* Leader Board Adver1 */
+google_ad_slot = "7137991335";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/show_ads.js">
+</script>
+</div></div><br><br>	
+		</div>
+	</div>
+<!--end news item -->
+
+
+      <!-- end component -->
+            	  <div class="clearm"></div>
+    </div>
+    <!-- end mid block insidem class -->
+  </div>
+  <!-- end mid block div -->
+    <div id="insetsholder_2t" style="width:35%;">
+    <div class="inside">
+      <div class="yjsquare">
+    <div class="yjsquare_in"><div id="blankBM95"><div style="display:block;float:left;margin:0px 0px 0px 5px;">
+<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/plusone.js"></script>
+<div class="g-person" data-href="https://plus.google.com/+DineshThakurG" data-layout="landscape"></div>
+</div><br><br></div>
+
+</div>
+</div>
+<div class="yjsquare">
+    <div class="yjsquare_in"><div id="blankBM96"><div style="display:block;float:left;margin:0px 0px 0px 5px;">
+<div class="fb-like" data-href="https://www.facebook.com/ysurfing" data-width="300" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="true" data-send="false"></div>
+
+</div>
+<br><br></div>
+
+</div>
+</div>
+
+    </div>
+  </div>
+  
+    <!-- right block -->
+  <div id="rightblock" style="width:19%;">
+    <div class="inside">
+      <div class="yjsquare">
+    <div class="yjsquare_in"><ul class="category-module">
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/advantages-and-disadvantages-of-dbms">
+		What is DBMS? Advantages and Disadvantages of DBMS.        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-normalization">
+		Database Normalization        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/strong-and-weak-entity-sets">
+		What are Strong and Weak Entity Sets in DBMS        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/components-of-dbms">
+		What are the Components of DBMS?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/advantages-and-disadvantages-of-e-r-model">
+		What is ER-Model?Advantages and Disadvantages of E-R Model.        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/data-independence">
+		What is Data Independence of DBMS?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/traditional-file-processing-system">
+		Traditional File Processing System        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/differentiate-between-dbms-and-rdbmstypes-of-dbms">
+		Differentiate between DBMS and RDBMS.Types of DBMS.        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/advantages-of-database">
+		Advantages of Database        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-are-the-difference-between-ddl-dml-and-dcl-commands">
+		What are the Difference Between DDL, DML and DCL Commands?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-instance">
+		What is a Database Instance        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/type-of-data-models">
+		What are Data Models? Type of Data Models.        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/entity-relationship-diagram">
+		Entity Relationship Diagram        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title active" href="http://ecomputernotes.com/fundamental/what-is-a-database/functional-dependence">
+		Type of Functional Dependence (FD)        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/intances-schemas-and-subschema">
+		What are INTANCES, SCHEMAS AND SUBSCHEMA in DBMS?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-architecture">
+		What is a Database Architecture        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/relational-model">
+		Relational Model        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-concurrency-control">
+		what is a Database Concurrency Control        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/database-languages">
+		Database Languages        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/functions-and-service-of-dbms">
+		What are the Functions and Service of DBMS        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/database-model">
+		Database Model        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/database-approach">
+		Database Approach        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/network-model">
+		Network Model        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/relation-and-relational-schema">
+		What is Difference Between Relation and Relational Schema?         </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-server">
+		What is a Database Server        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/metadata-or-data-dictionary">
+		What is Metadata OR Data Dictionary?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/role-of-dba-data-manager-file-manager-and-disk-manager">
+		What is the role of DBA, Data Manager, File Manager, and Disk Manager?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-management-system">
+		Database Management System        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/problems-with-e-r-model">
+		What are the Problems with E-R Model?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-schema">
+		What is a Database Schema        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-dba">
+		What is DBA?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/type-of-database-system">
+		Type of Database System        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/database-system-structure">
+		Database System Structure        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/er-notation">
+		E-R NOTATION        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-users">
+		What is a Database Users        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/basic-construction-of-e-r-modeling">
+		What is the Basic Construction of E-R Modeling?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-view">
+		What is a Database View        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/what-is-a-database-object">
+		What is a Database Object        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/procedure-for-database-access">
+		What is the Procedure for Database Access?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/attributes">
+		What is attributes?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/data-recovery">
+		What is Data Recovery?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/database">
+		What is Database?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/dbase">
+		What is dBase?        </a>
+                </h4>
+
+       			        		
+			</li>
+		    <li>
+	   	<h4>
+	   			<a class="mod-articles-category-title " href="http://ecomputernotes.com/fundamental/what-is-a-database/database-engine">
+		What is Database Engine?        </a>
+                </h4>
+
+       			        		
+			</li>
+	</ul>
+</div>
+</div>
+
+    </div>
+  </div>
+  <!-- end right block -->
+    
+    <!-- left block -->
+  <div id="leftblock" style="width:16%;">
+    <div class="inside">
+      <div class="yjsquare_menu">
+    <div class="yjsquare_in"><ul class="menu">
+<li id="item-468" class="active parent"><a class="mainlevel" href="http://ecomputernotes.com/fundamental">Computer Fundamental</a><ul><li id="item-469"><a class="mainlevel" href="http://ecomputernotes.com/fundamental/introduction-to-computer">Computer Intro.</a></li><li id="item-470"><a class="mainlevel" href="http://ecomputernotes.com/fundamental/information-technology">Information Tech.</a></li><li id="item-471"><a class="mainlevel" href="http://ecomputernotes.com/fundamental/input-output-and-memory">I/O and Memory</a></li><li id="item-472"><a class="mainlevel" href="http://ecomputernotes.com/fundamental/number-system">Number System</a></li><li id="item-552"><a class="mainlevel" href="http://ecomputernotes.com/fundamental/disk-operating-system">Operating system</a></li><li id="item-553" class="current-side active"><a class="mainlevel" href="http://ecomputernotes.com/fundamental/what-is-a-database">DBMS</a></li><li id="item-622"><a class="mainlevel" href="http://ecomputernotes.com/fundamental/terms">Computer Terms</a></li></ul></li><li id="item-473"><a class="mainlevel" href="http://ecomputernotes.com/computernetworkingnotes">Computer Networking</a></li><li id="item-483"><a class="mainlevel" href="http://ecomputernotes.com/sql">Structured Query (SQL)</a></li><li id="item-488"><a class="mainlevel" href="http://ecomputernotes.com/js">Java Script</a></li><li id="item-491"><a class="mainlevel" href="http://ecomputernotes.com/html">HTML Language</a></li><li id="item-493"><a class="mainlevel" href="http://ecomputernotes.com/css">Cascading Style Sheet</a></li><li id="item-495"><a class="mainlevel" href="http://ecomputernotes.com/what-is-c">C Programming  (Theory)</a></li><li id="item-505"><a class="mainlevel" href="http://ecomputernotes.com/c-program">C Programming  (Pratical)</a></li><li id="item-506"><a class="mainlevel" href="http://ecomputernotes.com/visual-basic">Visual Basic</a></li><li id="item-516"><a class="mainlevel" href="http://ecomputernotes.com/cpp">C++ Programming</a></li><li id="item-524"><a class="mainlevel" href="http://ecomputernotes.com/java">Java Programming</a></li><li id="item-634"><a class="mainlevel" href="http://ecomputernotes.com/servlet">Java Servlet</a></li><li id="item-533"><a class="mainlevel" href="http://ecomputernotes.com/computer-graphics">Computer Graphics</a></li><li id="item-538"><a class="mainlevel" href="http://ecomputernotes.com/e-commerce">Electronic Commerce</a></li><li id="item-541"><a class="mainlevel" href="http://ecomputernotes.com/mis">Management (MIS)</a></li><li id="item-554"><a class="mainlevel" href="http://ecomputernotes.com/data-structures">Data Structures</a></li><li id="item-561"><a class="mainlevel" href="http://ecomputernotes.com/software-engineering">Software Engineering</a></li><li id="item-579"><a class="mainlevel" href="http://ecomputernotes.com/digital-electronics">Digital Electronics</a></li><li id="item-588"><a class="mainlevel" href="http://ecomputernotes.com/csharp">C# Programming</a></li><li id="item-595"><a class="mainlevel" href="http://ecomputernotes.com/database-system">Database System</a></li></ul></div>
+</div>
+<div class="yjsquare">
+    <h4>
+    <span>About</span> Us  </h4>
+    <div class="yjsquare_in"><div id="blankBM91">
+
+
+<style>
+p.main {text-align: justify; display:block;float:left;font-size:11px;
+font-family:Georgia;
+color: #000000;}
+img.floatRight { 
+    float: right; 
+}
+a:link {color:#5f89bb;}   
+a:visited {color:#5f89bb;}
+a:hover {color:#5f89bb;} 
+a:active {color:#5f89bb;}
+</style>
+
+
+
+
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-annotation="inline" data-width="300"></div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<p class="main"><img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/DineshThakur.jpg" class="floatRight" alt="Dinesh Thakur"><b>Dinesh Thakur</b> is a Columinist and designer with strong passion and founder 
+
+of <b><i>Computer Notes</i></b>. if you have any ideas or any request me @ <a href="https://plus.google.com/+DineshThakurG?rel=author">Google</a> <br>
+<a href="http://www.linkedin.com/in/ysurfing">
+<img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/IN_ysurfing.jpg" alt="linkedin" height="30" width="30"></a>
+
+<a href="http://www.facebook.com/ysurfing">
+<img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/FB_ysurfing.jpg" alt="FaceBook" height="30" width="30"></a>
+<a href="https://twitter.com/ysurfing">
+<img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/TwitterySurfing.jpg" alt="Twitter" height="30" width="30"></a>
+<a href="https://plus.google.com/+DineshThakurG?rel=author">
+<img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/GP_ysurfing.jpg" alt="Google Plus " height="30" width="30"></a><br>
+<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/plusone.js"></script>
+<script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/plusone.js"></script>
+
+
+<br><br></p></div>
+
+</div>
+</div>
+
+    </div>
+  </div>
+  <!-- end left block -->
+       </div>
+<!-- end holder div -->
+           
+
+</div>
+<!-- end centerbottom-->
+            
+   <!-- footer -->
+<div class="grid_top_line"></div>
+<div class="footer_out">
+    <div id="footer" style="font-size:12px; width:100%;">
+      <div id="youjoomla">
+                    <div id="footmod">
+                
+            </div>
+                            <div id="cp">
+            
+<script type="text/javascript">
+
+	window.addEvent('domready', function() {
+	new SmoothScroll({duration: 500});	
+	})
+</script>
+<div class="validators">Connect Us On <a href="http://www.facebook.com/ysurfing">FaceBook</a> and <a href="https://plus.google.com/+DineshThakurG?rel=author">Google+</a></div><div class="yjsgcp"><b><a href="http://www.facebook.com/ysurfing">Dinesh Thakur</a></b> is a Technology Columinist and founder of <a href="http://ecomputernotes.com/" target="_blank">Computer Notes</a> and <a href="http://www.ysurfing.com/" target="_blank">Technology Motivation</a>. Mail Me At <a href="mailto:dineshthakur@ecomputernotes.com" target="_blank">(@Computer Notes)</a> </div>                                    <a class="yjsglogo png" href="http://ecomputernotes.com/" target="_blank">
+                        <span>Computer Notes</span>
+                    </a>
+                                       </div>
+      </div>
+    </div>
+</div>
+<!-- end footer -->
+	        <script src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/astrack.js" type="text/javascript"></script>
+   <!-- Start of StatCounter Code for Joomla -->
+<script type="text/javascript">
+var sc_project=8702366; 
+var sc_invisible=0; 
+var sc_security="6e041f4b"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script><script type="text/javascript" src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/counter.js"></script><span class="statcounter"><a class="statcounter" href="http://www.statcounter.com/" target="_blank"><img src="What%20is%20DBMS%20%20Advantages%20and%20Disadvantages%20of%20DBMS_files/t.png" alt="StatCounter - Free Web Tracker and Counter" border="0"></a></span>
+
+<noscript><div class="statcounter"><a title="joomla site
+stats" href="http://statcounter.com/joomla/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/8702366/0/6e041f4b/0/"
+alt="joomla site stats"></a></div></noscript>
+<!-- End of StatCounter Code for Joomla -->
+
+</body></html>
