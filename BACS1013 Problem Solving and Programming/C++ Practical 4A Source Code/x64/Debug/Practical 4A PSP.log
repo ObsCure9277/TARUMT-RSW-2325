@@ -1,0 +1,8 @@
+﻿  P4AQ6.cpp
+C:\Users\Ng Shen Zhi\VS source\repos\Practical 4A PSP\P4AQ6.cpp(14,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ng Shen Zhi\VS source\repos\Practical 4A PSP\P4AQ6.cpp(18,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ng Shen Zhi\VS source\repos\Practical 4A PSP\P4AQ6.cpp(22,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ng Shen Zhi\VS source\repos\Practical 4A PSP\P4AQ6.cpp(26,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ng Shen Zhi\VS source\repos\Practical 4A PSP\P4AQ6.cpp(30,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ng Shen Zhi\VS source\repos\Practical 4A PSP\P4AQ6.cpp(34,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Practical 4A PSP.vcxproj -> C:\Users\Ng Shen Zhi\VS source\repos\Practical 4A PSP\x64\Debug\Practical 4A PSP.exe
