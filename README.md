@@ -83,5 +83,8 @@ If you find these materials beneficial, you can make a donation. A minute of you
   </tr>
 </table>
 
+## 📝 Author 
+
+Ng Shen Zhi, ngsz-wm23@student.tarc.edu.my
 
 
