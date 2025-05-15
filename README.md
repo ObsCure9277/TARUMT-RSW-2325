@@ -67,11 +67,19 @@ If you find these materials beneficial, you can make a donation. A minute of you
 
 <img src="https://github.com/user-attachments/assets/38d3ec7f-1f4a-4df9-8b0f-961388f4407a" alt="Sample Image" width="350" height="500">
 
-## 📝 Author
-
-Ng Shen Zhi, ngsz-wm23@student.tarc.edu.my
-
-
+## ➕ Additional
+<table>
+  <tr>
+    <td width="100" height="100" align="center" valign="middle">
+      <a href="https://online2pdf.com/" target="_blank">
+        <img src="https://github.com/user-attachments/assets/52ab26a1-9cb5-4aa3-9422-bbfcdf1f65c5" alt="Online2PDF" width="70" height="75">
+      </a>
+    </td>
+    <td>
+      <b><a href="https://online2pdf.com/" target="_blank">Online2PDF</a></b> — a <b>FREE</b> and user-friendly website that allows you to convert, merge, compress, and edit PDF files easily without installing any software. It's perfect for quick PDF tasks directly from your browser with support for various file formats and customization options.
+    </td>
+  </tr>
+</table>
 
 
 
