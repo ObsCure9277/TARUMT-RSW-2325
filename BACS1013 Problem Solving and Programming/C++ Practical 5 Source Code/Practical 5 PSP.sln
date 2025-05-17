@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practical 5 PSP", "Practical 5 PSP.vcxproj", "{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}.Debug|x64.ActiveCfg = Debug|x64
+		{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}.Debug|x64.Build.0 = Debug|x64
+		{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}.Debug|x86.Build.0 = Debug|Win32
+		{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}.Release|x64.ActiveCfg = Release|x64
+		{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}.Release|x64.Build.0 = Release|x64
+		{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}.Release|x86.ActiveCfg = Release|Win32
+		{A8D9FDD7-DB2E-4006-A293-2F96F9A0EE3F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29F47DE1-B211-48AF-B7A2-EF37FA14A7F0}
+	EndGlobalSection
+EndGlobal

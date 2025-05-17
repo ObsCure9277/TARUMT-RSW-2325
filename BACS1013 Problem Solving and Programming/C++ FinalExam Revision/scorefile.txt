@@ -1,0 +1,10 @@
+Score Sheet
+----------------
+Team 1 : 10
+Team 2 : 20
+Team 3 : 30
+Team 4 : 40
+Team 5 : 50
+----------------------------
+Total            : 150
+Average: 30

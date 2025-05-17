@@ -1,0 +1,4 @@
+﻿  BMI NG.cpp
+C:\Users\Ng Shen Zhi\VS source\repos\Practical Test Revision\BMI NG.cpp(126,18): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Users\Ng Shen Zhi\VS source\repos\Practical Test Revision\BMI NG.cpp(132,18): warning C4804: '<': unsafe use of type 'bool' in operation
+  Practical Test Revision.vcxproj -> C:\Users\Ng Shen Zhi\VS source\repos\Practical Test Revision\x64\Debug\Practical Test Revision.exe
