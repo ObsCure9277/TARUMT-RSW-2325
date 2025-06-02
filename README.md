@@ -100,7 +100,7 @@ If you find these materials beneficial, you can make a donation. A minute of you
       </a>
     </td>
     <td>
-      <b><a href="https://refactoring.guru/" target="_blank">Refactoring.Guru</a></b> — a user-friendly website that helps you learn about code refactoring, design patterns, and clean code practices. It's perfect for developers looking to improve code quality directly from their browser, with support for multiple programming languages and easy-to-follow explanations, diagrams, and real-world examples. (BACS2073	Software Design and Architecture)
+      <b><a href="https://refactoring.guru/" target="_blank">Refactoring.Guru</a></b> — a user-friendly website that helps you learn about code refactoring, design patterns, and clean code practices. It easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics. (BACS2073	Software Design and Architecture)
     </td>
   </tr>
 </table>
