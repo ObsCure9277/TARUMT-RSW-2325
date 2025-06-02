@@ -81,7 +81,8 @@ If you find these materials beneficial, you can make a donation. A minute of you
       <b><a href="https://online2pdf.com/" target="_blank">Online2PDF</a></b> — a <b>FREE</b> and user-friendly website that allows you to convert, merge, compress, and edit PDF files easily without installing any software. It's perfect for quick PDF tasks directly from your browser with support for various file formats and customization options.
     </td>
   </tr>
-    <tr>
+  
+  <tr>
     <td width="100" height="100" align="center" valign="middle">
       <a href="https://www.aconvert.com" target="_blank">
         <img src="https://github.com/user-attachments/assets/cef80eb9-48cd-4b73-942f-127a10451320" alt="AConvert" width="70" height="75">
@@ -89,6 +90,17 @@ If you find these materials beneficial, you can make a donation. A minute of you
     </td>
     <td>
       <b><a href="https://www.aconvert.com" target="_blank">AConvert</a></b> — a <b>FREE</b> and user-friendly website that allows you to convert, merge, compress, edit not just PDFs, but also documents, images, videos, audio files, and eBooks easily without installing any software. It supports a wide range of file types, making it perfect for diverse file conversion needs directly from your browser.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="100" height="100" align="center" valign="middle">
+      <a href="https://refactoring.guru/" target="_blank">
+        <img src="https://github.com/user-attachments/assets/726c1e4f-78f5-4be1-ac0c-284b1bf58c6b" alt="Refactoring.Guru" width="70" height="75">
+      </a>
+    </td>
+    <td>
+      <b><a href="https://refactoring.guru/" target="_blank">Refactoring.Guru</a></b> — a user-friendly website that helps you learn about code refactoring, design patterns, and clean code practices. It's perfect for developers looking to improve code quality directly from their browser, with support for multiple programming languages and easy-to-follow explanations, diagrams, and real-world examples. (BACS2073	Software Design and Architecture)
     </td>
   </tr>
 </table>
