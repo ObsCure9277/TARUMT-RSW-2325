@@ -103,6 +103,18 @@ If you find these materials beneficial, you can make a donation. A minute of you
       <b><a href="https://refactoring.guru/" target="_blank">Refactoring.Guru</a></b> — a user-friendly website that helps you learn about code refactoring, design patterns, and clean code practices. It easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics. (BACS2073	Software Design and Architecture)
     </td>
   </tr>
+
+  <tr>
+    <td width="100" height="100" align="center" valign="middle">
+      <a href="https://bigmp3.org" target="_blank">
+        <img src="https://github.com/user-attachments/assets/88982617-c00e-48ca-82e0-7156c90872f9" alt="BigMP3" width="70" height="75"/>
+      </a>
+    </td>
+    <td>
+      <b><a href="https://bigmp3.org" target="_blank">BigMP3</a></b> — a <b>FREE</b> platform that downloading music is quick, easy, and completely free. There's no need for subscriptions or hidden fees, simply browse, select, and enjoy your favorite tunes. 
+    </td>
+  </tr>
+
 </table>
 
 ## 📝 Author 
