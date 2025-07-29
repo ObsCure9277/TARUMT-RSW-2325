@@ -52,7 +52,7 @@ The learning materials provided in this repository are for reference and self-st
 | 30  | BACS3183     | Advanced Database Management               | Y2S3     | Notes, Practical Codes                                           |
 | 31  | BJEL2013     | English for Career Preparation             | Y2S3     | Notes                                                            |
 |     |              |                                            | YEAR 3   |                                                                  |
-| 32  | BMCS3413     | Project II                                 | Y3S1     | Coming Soon                                                      |
+| 32  | BMCS3413     | Project II                                 | Y3S1     | -                                                                |
 | 33  | BMSE3153     | Software Project Management                | Y3S1     | Coming Soon                                                      |
 | 34  | BMSE3013     | Software Evolution and Maintenance         | Y3S1     | Coming Soon                                                      |
 | 35  | BMCS3033     | Social and Professional Issues             | Y3S1     | Coming Soon                                                      |
