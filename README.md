@@ -1,6 +1,6 @@
 # 🎓 Software Engineering - RSW Study Materials
 
-Welcome to the RSD Learning Materials repository — a curated collection of recorded learning materials in RSW from 2023 to 2025. 
+Welcome to the RSW Learning Materials repository — a curated collection of recorded learning materials in RSW from 2023 to 2025. 
 
 ## 📁 Contents
 
@@ -52,20 +52,14 @@ The learning materials provided in this repository are for reference and self-st
 | 30  | BACS3183     | Advanced Database Management               | Y2S3     | Notes, Practical Codes                                           |
 | 31  | BJEL2013     | English for Career Preparation             | Y2S3     | Notes                                                            |
 |     |              |                                            | YEAR 3   |                                                                  |
-| 32  | BMCS3413     | Project II                                 | Y3S1     | Coming Soon                                                      |
+| 32  | BMCS3413     | Project II                                 | Y3S1     | -                                                                |
 | 33  | BMSE3153     | Software Project Management                | Y3S1     | Coming Soon                                                      |
 | 34  | BMSE3013     | Software Evolution and Maintenance         | Y3S1     | Coming Soon                                                      |
 | 35  | BMCS3033     | Social and Professional Issues             | Y3S1     | Coming Soon                                                      |
-| 36  | BMIT3273     | Cloud Computing                            | Y3S2     | Coming Soon                                                      |
-| 37  | BMCS3003     | Distributed Systems and Parallel Computing | Y3S2     | Coming Soon                                                      |
+| 36  | BMIT3273     | Cloud Computing                            | Y3S1     | Coming Soon                                                      |
+| 37  | BMCS3003     | Distributed Systems and Parallel Computing | Y3S1     | Coming Soon                                                      |
 | 38  | BAIT305C     | Industrial Training                        | Y3S2     | Get an Internship Placement                                      |
 | 39  | BAIT305C     | Industrial Training                        | Y3S3     | Same Internship as Y3S2                                          |
-
-## 🎁 Donation
-
-If you find these materials beneficial, you can make a donation. A minute of your reading time could be an hour or a day of my effort. Cheers!
-
-<img src="https://github.com/user-attachments/assets/38d3ec7f-1f4a-4df9-8b0f-961388f4407a" alt="Sample Image" width="350" height="500">
 
 ## ➕ Additional
 <b>Highly Recommended Tools You Might Find Useful</b>
@@ -81,10 +75,43 @@ If you find these materials beneficial, you can make a donation. A minute of you
       <b><a href="https://online2pdf.com/" target="_blank">Online2PDF</a></b> — a <b>FREE</b> and user-friendly website that allows you to convert, merge, compress, and edit PDF files easily without installing any software. It's perfect for quick PDF tasks directly from your browser with support for various file formats and customization options.
     </td>
   </tr>
+  
+  <tr>
+    <td width="100" height="100" align="center" valign="middle">
+      <a href="https://www.aconvert.com" target="_blank">
+        <img src="https://github.com/user-attachments/assets/cef80eb9-48cd-4b73-942f-127a10451320" alt="AConvert" width="70" height="75">
+      </a>
+    </td>
+    <td>
+      <b><a href="https://www.aconvert.com" target="_blank">AConvert</a></b> — a <b>FREE</b> and user-friendly website that allows you to convert, merge, compress, edit not just PDFs, but also documents, images, videos, audio files, and eBooks easily without installing any software. It supports a wide range of file types, making it perfect for diverse file conversion needs directly from your browser.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="100" height="100" align="center" valign="middle">
+      <a href="https://refactoring.guru/" target="_blank">
+        <img src="https://github.com/user-attachments/assets/726c1e4f-78f5-4be1-ac0c-284b1bf58c6b" alt="Refactoring.Guru" width="70" height="75">
+      </a>
+    </td>
+    <td>
+      <b><a href="https://refactoring.guru/" target="_blank">Refactoring.Guru</a></b> — a user-friendly website that helps you learn about code refactoring, design patterns, and clean code practices. It easy for you to discover everything you need to know about refactoring, design patterns, SOLID principles, and other smart programming topics. (BACS2073	Software Design and Architecture)
+    </td>
+  </tr>
+
+  <tr>
+    <td width="100" height="100" align="center" valign="middle">
+      <a href="https://bigmp3.org" target="_blank">
+        <img src="https://github.com/user-attachments/assets/88982617-c00e-48ca-82e0-7156c90872f9" alt="BigMP3" width="70" height="75"/>
+      </a>
+    </td>
+    <td>
+      <b><a href="https://bigmp3.org" target="_blank">BigMP3</a></b> — a <b>FREE</b> platform that downloading music is quick, easy, and completely free. There's no need for subscriptions or hidden fees, simply browse, select, and enjoy your favorite tunes. 
+    </td>
+  </tr>
+
 </table>
 
 ## 📝 Author 
 
 <b>Ng Shen Zhi</b>, ngsz-wm23@student.tarc.edu.my
-
 
