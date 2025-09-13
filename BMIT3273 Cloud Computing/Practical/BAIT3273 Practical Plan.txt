@@ -1,0 +1,89 @@
+Week 1
+P1 Amazon EC2 
+
+
+Week 2
+P2 Hosting Web with User Data
+
+
+Week 3
+P3 Auto Scaling 17
+
+Homework - Guided Lab: Exploring AWS Identity and Access Management (IAM) (Cloud Architecting Module 3)
+
+
+Week 4
+P4 Load Balancing
+
+Homework - Challenge (Cafe) lab: Creating a Static Website for the Cafe (Cloud Architecting Module 4)
+
+
+Week 5
+P5 EBS
+
+Homework - Guided lab: Introducing Amazon Elastic File System (Amazon EFS) (Cloud Architecting Module 5)
+
+Homework - Challenge (Cafe) lab: Creating a Dynamic Website for the Café (Cloud Architecting Module 5)
+
+
+Week 6
+P6 EFS
+
+Homework - Guided lab: Creating an Amazon RDS Database (Cloud Architecting Module 6)
+
+Homework - Challenge (Cafe) lab: Migrating a Database to Amazon RDS (Cloud Architecting Module 6)
+
+
+Week 7
+P7 S3
+
+Homework - Guided lab: Creating a Virtual Private Cloud (Cloud Architecting Module 7)
+
+Homework - Challenge (Cafe) lab: Creating a VPC Networking Environment for the Café (Cloud Architecting Module 7)
+
+
+
+Week 8
+P8 RDS
+
+Homework - Guided lab: Creating a VPC Peering Connection (Cloud Architecting Module 8)
+
+
+Week 9
+P9 Flask with RDS and S3 29 (Assignment setup)
+
+Homework - Guided lab: Encrypting Data at Rest by Using AWS Encryption Options (Cloud Architecting Module 9)
+
+
+Week 10
+P10 PowerOfMath
+
+Homework - Guided lab: Creating a Highly Available Environment (Cloud Architecting Module 10)
+
+Homework - Challenge (Café) lab: Creating a Scalable and Highly Available Environment for the Café (Cloud Architecting Module 10)
+
+
+
+Week 11
+P11 CloudFormation _ Elastic Beanstalk 
+
+Homework - Guided lab: Automating Infrastructure with AWS CloudFormation (Cloud Architecting Module 11)
+
+Homework - Challenge (Café) lab: Automating Infrastructure Deployment (Cloud Architecting Module 11)
+
+
+Week 12
+P12 Amazon Rekognition
+
+Homework - Guided lab: Streaming Dynamic Content Using Amazon CloudFront (Cloud Architecting Module 12)
+
+Week 13
+P13 Host a website using GitHub Pages
+
+Homework - Guided lab: Building Decoupled Applications by Using Amazon SQS (Cloud Architecting Module 13)
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Your PHP installation doesn't have support for XML. Please install the xml or simplexml PHP extension in order to be able to install starter sites.
+
+
+sudo yum install php-xml -y
+sudo systemctl restart httpd
+
+Restart normally won't work. Go reboot your EC2 instance.
+Reboot EC2
+
+
+
+#check php version in amazon-linux-extras
+#sudo  amazon-linux-extras | grep php
+#use php8.0
