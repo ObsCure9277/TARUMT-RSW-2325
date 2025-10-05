@@ -53,10 +53,10 @@ The learning materials provided in this repository are for reference and self-st
 | 31  | BJEL2013     | English for Career Preparation             | Y2S3     | Notes                                                            |
 |     |              |                                            | YEAR 3   |                                                                  |
 | 32  | BMCS3413     | Project II                                 | Y3S1     | -                                                                |
-| 33  | BMSE3153     | Software Project Management                | Y3S1     | Coming Soon                                                      |
+| 33  | BMSE3153     | Software Project Management                | Y3S1     | Notes, Tutorial Answers, Past Year Paper Answers                 |
 | 34  | BMSE3013     | Software Evolution and Maintenance         | Y3S1     | Coming Soon                                                      |
 | 35  | BMCS3033     | Social and Professional Issues             | Y3S1     | Coming Soon                                                      |
-| 36  | BMIT3273     | Cloud Computing                            | Y3S1     | Coming Soon                                                      |
+| 36  | BMIT3273     | Cloud Computing                            | Y3S1     | Tutorial Answers, Practical Answers                              |
 | 37  | BMCS3003     | Distributed Systems and Parallel Computing | Y3S1     | Coming Soon                                                      |
 | 38  | BAIT305C     | Industrial Training                        | Y3S2     | Get an Internship Placement                                      |
 | 39  | BAIT305C     | Industrial Training                        | Y3S3     | Same Internship as Y3S2                                          |
